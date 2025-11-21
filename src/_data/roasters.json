@@ -1,0 +1,66 @@
+[
+    {
+  	"name": "Little Waves",
+	"website": "https://littlewaves.coffee/collections/current-coffees",
+	"logo": "img/roaster-logo_littlewaves.png",
+  	"city": "Durham",
+  	"state": "NC",
+  	"description": "Little Waves Coffee Roasters is an award winning impact-driven group of thinkers, dreamers, and doers who delight in the enduring power of coffee as a shared experience. By making small, determined reverberations through sourcing, roasting, and brewing, we add our open-hearted energy to the tides that unconceal and uphold the beauty of coffee and life. ",
+  	"extraInfo": {
+    		"est": "2010",
+			"awards": true,
+			"notable": ["2022 roaster of the year - Roast Magazine", "Co-Founder & Green Buyer, Areli, Selected as 2025 Sprudge Twenty"],
+			"ownership": "Latina owned",
+			"memberships": ["World Coffee Research", "SCA"]
+  		},
+	"johnsSeal": true
+	},
+    {
+  	"name": "JBC",
+	"website": "https://jbccoffeeroasters.com/product-category/coffee/",
+	"logo": "img/roaster-logo_jbc.png",
+  	"city": "Madison",
+  	"state": "WI",
+  	"description": "Unparalleled quality, a human story, and sustainability – that’s our coffee philosophy.",
+  	"extraInfo": {
+    		"est": "1994",
+			"awards": true,
+			"notable": ["One of 28 Best Coffee Roasters in America 2022 - Gear Patrol", "Six Time Good Food Award Winners (2016, 2018, 2020, 2021, 2022, 2025)"],
+			"ownership": null,
+			"memberships": null
+  		},
+	"johnsSeal": true
+	},
+    {
+  	"name": "PERC",
+	"website": "https://perccoffee.com/collections/coffee",
+	"logo": "img/roaster-logo_perc.png",
+  	"city": "Savannah",
+  	"state": "GA",
+  	"description": "Our mission is to share good times and awesome coffee with you at every step of your coffee journey. We source mind-blowing coffees from the world’s top producers and roast them with love and relentless curiosity. Our roast profiles maximize the natural sweetness and character of each coffee. We’re super excited about these coffees and we’re thrilled to share them with you!",
+  	"extraInfo": {
+    		"est": "2010",
+    		"awards": false,
+    		"notable": null,
+			"ownership": null,
+			"memberships": null
+  		},
+	"johnsSeal": true
+	},
+    {
+  	"name": "ONYX Coffee Lab",
+	"website": "https://onyxcoffeelab.com/collections/coffee",
+	"logo": "img/roaster-logo_onyx.png",
+  	"city": "Rogers",
+  	"state": "AR",
+  	"description": "Years ago we started telling each other to “Never Settle for Good Enough.” It felt perhaps like a piece of branding or a slogan, but over the years this mentality has developed into a mantra of its own that permeates every thing that we do at Onyx.",
+  	"extraInfo": {
+    		"est": "2012",
+    		"awards": true,
+    		"notable": ["Good Food Award Winner - 2014, 2015, 2019", "2024 10 Best Independent Coffee Shops - 4th Place, USA Today"],
+			"ownership": null,
+			"memberships": ["SCA"]
+  		},
+	"johnsSeal": true
+	}
+]

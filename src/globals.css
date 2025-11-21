@@ -1,0 +1,49 @@
+:root {
+    /* UI GRAY */
+    --UI-GRAY-900: #E0E2E1;
+    --UI-GRAY-800: #C8CAC9;
+    --UI-GRAY-700: #AFB3B2;
+    --UI-GRAY-600: #979B9A;
+    --UI-GRAY-500: #7E8482;
+    --UI-GRAY-400: #666C6A;
+    --UI-GRAY-300: #595E5F;
+    --UI-GRAY-200: #4C5150;
+    --UI-GRAY-100: #404443;
+    --UI-GRAY-000: #333635;
+    /* UI PRIMARY */
+    --UI-PRIMARY-900: #EDF4F0;
+    --UI-PRIMARY-800: #BBDDC7;
+    --UI-PRIMARY-700: #9AC7A8;
+    --UI-PRIMARY-600: #7BAD8A;
+    --UI-PRIMARY-500: #5E916D;
+    --UI-PRIMARY-400: #457251;
+    --UI-PRIMARY-300: #376449;
+    --UI-PRIMARY-200: #2A5440;
+    --UI-PRIMARY-100: #1F4337;
+    --UI-PRIMARY-000: #14312B;
+    /* UI SECONDARY */
+    --UI-SECONDARY-999: #F3EBDF;
+    --UI-SECONDARY-900: #E7D6BF;
+    --UI-SECONDARY-800: #D5BD9A;
+    --UI-SECONDARY-700: #C0A57A;
+    --UI-SECONDARY-600: #A88C5C;
+    --UI-SECONDARY-500: #8D7342;
+    --UI-SECONDARY-400: #6F582A;
+    --UI-SECONDARY-300: #61471E;
+    --UI-SECONDARY-200: #513614;
+    --UI-SECONDARY-100: #3F250C;
+    --UI-SECONDARY-000: #2B1606;
+    /* Font size scale (base = 16px = 1rem, ratio = 1.25) */
+    --fs-scale: 1.25;
+    --fs-base: 1rem; /* 16px */
+    /* Modular scale from 0.64rem up to ~3.815rem (1.25^n) */
+    --fs-0: 0.64rem;         /* 0.64 */
+    --fs-1: 0.8rem;          /* 0.8  */
+    --fs-2: 1rem;            /* 1.0  (base) */
+    --fs-3: 1.25rem;         /* 1.25 */
+    --fs-4: 1.5625rem;       /* 1.5625 */
+    --fs-5: 1.953125rem;     /* 1.953125 */
+    --fs-6: 2.44140625rem;   /* 2.44140625 */
+    --fs-7: 3.0517578125rem; /* 3.0517578125 */
+    --fs-8: 3.814697265625rem; /* 3.814697265625 (~3.815) */
+}

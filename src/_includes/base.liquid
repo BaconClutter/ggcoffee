@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/modal.css">
+</head>
+<body>
+    <div class="container">         
+        <header style="background-image: url({{stripImage}});">
+            <div class="header-content">   
+                <div class="logo-container">
+                    <img height="100px" src="{{heroImage}}" alt="Get Good Coffee Logo" class="logo">
+                </div>
+            <!--<h1 class="page-nav-title">{{ title }}</h1>-->
+                <nav>
+                    <ul id="navLinks" class="nav-links hide">
+                        <li><a href="/" alt="Get Good Coffee Home"><img src="/img/nav_get-logo.svg" alt="Get Good Coffee Logo" class="nav-logo"></a></li>
+                        <li><a href="/make/" alt="Make Good Coffee"><img src="/img/nav_make-logo.svg" alt="Make Good Coffee Logo" class="nav-logo"></a></li>
+                        <li><a href="/know/" alt="Know Good Coffee"><img src="/img/nav_know-logo.svg" alt="Know Good Coffee Logo" class="nav-logo"></a></li>
+                        <li><button class="nav-close" aria-label="Close menu"><img src="/img/nav-x.svg" alt="Close Menu"></button></li>
+                    </ul>
+                    <div class="hamburger" role="button" id="navToggle" aria-controls="navLinks" aria-expanded="false" tabindex="0">
+                        <img width="60px" src="/img/nav-burger.svg" alt="Menu">
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div>
+            <section class="main-content">{{ content }}</section>
+            </div>
+        </main>
+        <footer>
+            <ul class="footer-links">
+                <li><a href="/">GET</a></li>
+                <li><a href="/make/">MAKE</a></li>
+                <li><a href="/know/">KNOW</a></li>
+                <li><a href="/about/">ABOUT</a></li>
+                <li><a href="/contact/">CONTACT</a></li>
+            </ul>
+            <div class="footer-credit">
+                <p>Created with ♥️ and lots of ☕  by John </p>
+            <p>Built with <a href="https://www.11ty.dev/">11ty</a>, hosted on <a href="https://www.netlify.com/">Netlify</a> &copy; {{ "now" | date: "%Y" }} {{ site.title }}</p>
+            </div>
+        </footer>
+    </div>
+        <!-- Roaster modal (shared) -->
+        <div id="roasterModal" class="modal hidden" aria-hidden="true" role="dialog" aria-modal="true">
+            <div class="modal-backdrop" data-modal-close></div>
+            <div class="modal-content" role="document">
+                <button class="modal-close" aria-label="Close" data-modal-close><img src="/img/nav-x.svg" alt="Close Menu"></button>
+                <div class="modal-body">
+                    <div class="modal-left-side">
+                        <div class="modal-logo"><img src="" alt="" /></div>
+                    </div>
+                    <div class="modal-right-side">
+                        <h2 class="modal-name"></h2>
+                        <p class="modal-location"></p>
+                        <div class="modal-extra"></div>
+                        <p class="modal-description"></p>
+                        <div class="modal-links"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="/script.js"></script>
+</body>
+</html>
