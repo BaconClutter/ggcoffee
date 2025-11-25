@@ -1,0 +1,6 @@
+- [Fellow tally](https://fellowproducts.com/products/tally-coffee-scale)
+- [TIMEMORE basic](https://www.timemore.com/products/timemore-coffee-scale-with-timer-basic-mini-black)
+- [Greater goods](https://shop.greatergoods.com/products/premium-coffee-scale-onyx-black)
+- [Acaia Pearl](https://acaia.co/collections/coffee-scales/products/pearl)
+- [Coffee Gator scale](https://www.amazon.com/dp/B07M9H2XZ9)
+- [Hario V60 drip scale](https://www.hario-usa.com/products/v60-drip-scale)

@@ -17,12 +17,18 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/modal.css">
 </head>
-<body>
+<body> 
+    <pre hidden>
+|_ _| | |   / _ \ \   / / ____|  / ___/ _ \|  ___|  ___| ____| ____|
+ | |  | |  | | | \ \ / /|  _|   | |  | | | | |_  | |_  |  _| |  _|
+ | |  | |__| |_| |\ V / | |___  | |__| |_| |  _| |  _| | |___| |___
+|___| |_____\___/  \_/  |_____|  \____\___/|_|   |_|   |_____|_____| 
+    </pre>
     <div class="container">         
         <header style="background-image: url({{stripImage}});">
             <div class="header-content">   
                 <div class="logo-container">
-                    <img height="100px" src="{{heroImage}}" alt="Get Good Coffee Logo" class="logo">
+                    <img height="100px" src="{{logoImage}}" alt="Get Good Coffee Logo" class="logo">
                 </div>
             <!--<h1 class="page-nav-title">{{ title }}</h1>-->
                 <nav>
@@ -49,10 +55,10 @@
                 <li><a href="/make/">MAKE</a></li>
                 <li><a href="/know/">KNOW</a></li>
                 <li><a href="/about/">ABOUT</a></li>
-                <li><a href="/contact/">CONTACT</a></li>
+                <li><a href="/about/">CONTACT</a></li>
             </ul>
             <div class="footer-credit">
-                <p>Created with ♥️ and lots of ☕  by John </p>
+                <p>Created with ♥️ and lots of ☕  by <a href="/about/">John</a></p>
             <p>Built with <a href="https://www.11ty.dev/">11ty</a>, hosted on <a href="https://www.netlify.com/">Netlify</a> &copy; {{ "now" | date: "%Y" }} {{ site.title }}</p>
             </div>
         </footer>

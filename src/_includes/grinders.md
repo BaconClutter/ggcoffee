@@ -1,0 +1,7 @@
+- [OXO Hand Grinder](https://www.oxo.com/oxo-brew-manual-coffee-grinder.html)
+- [OXO Conical Burr](https://www.oxo.com/conical-burr-coffee-grinder.html)
+- [Baratza Encore](https://www.baratza.com/en-us/product/encore-zcg485)
+- [Baratza Virtuoso +](https://www.baratza.com/en-us/product/virtuoso-zcg587)
+- [Fellow Ode Gen 2](https://fellowproducts.com/products/ode-brew-grinder-gen-2)
+- [TIMEMORE Electric Sculptor](https://www.timemore.com/products/timemore-electric-coffee-grinder-sculptor-series)
+- [TIMEMORE Chestnut C2 Manual](https://www.timemore.com/products/timemore-chestnut-c2s-manual-coffee-grinder)

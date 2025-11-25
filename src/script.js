@@ -71,7 +71,7 @@ if (navClose) {
              //   extraHtml += '<div class="roaster-memberships"><ul>' + roaster.extraInfo.memberships.map(function (m) { return '<li>' + m + '</li>'; }).join('') + '</ul></div>';
             }
         }
-        if (roaster.johnsSeal) extraHtml += '<p class="roaster-johns-seal">John\'s Seal: Yes</p>';
+        if (roaster.johnsSeal) extraHtml += '<p class="roaster-johns-seal">John\'s Seal</p>';
         modalExtra.innerHTML = extraHtml;
 
         modal.classList.remove('hidden');

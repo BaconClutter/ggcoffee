@@ -1,0 +1,5 @@
+- [Bodum gooseneck kettle](https://www.bodum.com/us/en/11940-16us-bistro)
+- [TIMEMORE gooseneck kettle](https://www.timemore.com/collections/coffee-electric-kettle/products/timemore-fish-smart-electric-coffee-kettle-600ml)
+- [Fellow Stagg gooseneck kettle](https://fellowproducts.com/products/stagg-ekg-electric-pour-over-kettle)
+- [Bonavita gooseneck kettle](https://bonavitabrand.co/products/bonavita-classic-1-0l-gooseneck-precision-temperature-electric-kettle)
+- [OXO gooseneck kettle](https://www.oxo.com/adjustable-temperature-pour-over-kettle.html)

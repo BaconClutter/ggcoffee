@@ -1,0 +1,8 @@
+- [Hario V60](https://www.hario-usa.com/products/vd-01t)
+- [Origami dripper](https://www.slowpoursupply.co/collections/origami-dripper/products/origami-dripper-m)
+- [Stagg pourover dripper](https://fellowproducts.com/products/staggdripper?srsltid=AfmBOor2MJF5775vXU7DefGG1jybqlgLMz564UwYAIzvlIcd563Rhthb)
+- [Clever coffee dripper](https://cleverbrewing.coffee/products/clever-dripper)
+- [Kono dripper](https://kohiraifu.com/products/kono-dripper)
+- [Espro P7 french press](https://espro.com/products/coffee-french-press-p7)
+- [Bodum French press](https://www.bodum.com/us/en/1543-01us-brazil)
+- [Yeti 64oz french press](https://www.yeti.com/drinkware/mugs/21071501854.html)

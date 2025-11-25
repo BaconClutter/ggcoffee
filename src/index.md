@@ -1,23 +1,23 @@
 ---
 title: GET GOOD COFFEE
 layout: "base.liquid"
-heroImage: /img/get-logo.svg
+logoImage: /img/get-logo.svg
 stripImage: /img/get-header_icons.svg
 ---
-<div id="getHero">
+<div id="getHero" class="hero-section">
     <div class="width-limit">
-    <div class="hero-text">
-        <h1>
-        It can be difficult to find good, new roasters
-        </h1>
-        <p>
-        I know there are tons of them out there. So, I decided to make my own list and put it here so everyone else can find them too. They all source and roast high quality, <a href="/know/">single origin</a> beans, but each roaster does it a little different and a little special.
-        </p>
-        <p>
-        I hope this helps you find your new favorite place to get good coffee.
-        </p>
-    </div>
-    <img src="/img/getHero.svg" />
+        <div class="hero-text">
+            <h1>
+            It can be difficult to find good, new roasters
+            </h1>
+            <p>
+            I know there are tons of them out there. So, I decided to make my own list and put it here so everyone else can find them too. They all source and roast high quality, <a href="/know/">single origin</a> beans, but each roaster does it a little different and a little special.
+            </p>
+            <p>
+            I hope this helps you find your new favorite place to get good coffee.
+            </p>
+        </div>
+        <img src="/img/get-hero.svg" />
     </div>
 </div>
 <section id="roasterDirectory">
