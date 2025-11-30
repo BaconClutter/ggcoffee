@@ -48,7 +48,7 @@
 	"johnsSeal": true
 	},
     {
-  	"name": "ONYX Coffee Lab",
+  	"name": "ONYX",
 	"website": "https://onyxcoffeelab.com/collections/coffee",
 	"logo": "img/roaster-logo_onyx.png",
   	"city": "Rogers",
@@ -62,5 +62,146 @@
 			"memberships": ["SCA"]
   		},
 	"johnsSeal": true
+	},
+	{
+		"name": "Utopian",
+		"website": "https://utopiancoffee.com/collections/coffee",
+		"logo": "img/roaster-logo_utopian.png",
+		"city": "Fort Wayne",
+		"state": "IN",
+		"description": "Utopian Coffee is a coffee roaster founded in 2006. Utopian Coffee is known for its unparalleled commitment to sustainably harvested coffee.",
+		"extraInfo": {
+			"est": "2006",
+			"notable": null,
+			"ownership": null,
+			"memberships": null
+		},
+		"johnsSeal": true
+	},
+	{
+		"name": "Hydrangea",
+		"website": "https://hydrangea.coffee",
+		"logo": "img/roaster-logo_hydrangea.jpg",
+		"city": "Berkeley",
+		"state": "CA",
+		"description": "Light, Fruit-forward, Experimental Coffees Process. Enhancing flavor development through modern fermentation techniques.",
+		"extraInfo": {
+			"est": null,
+			"notable": null,
+			"ownership": null,
+			"memberships": null
+		},
+		"johnsSeal": true
+	},
+	{
+		"name": "Broadsheet",
+		"website": "https://broadsheetcoffee.com/collections/all-coffee",
+		"logo": "img/roaster-logo_broadsheet.png",
+		"city": "Cambridge",
+		"state": "MA",
+		"description": "Discover the finest specialty coffee at Broadsheet Coffee Roasters, just a five-minute walk from Harvard Yard in Cambridge, Massachusetts.",
+		"extraInfo": {
+			"est": "2017",
+			"notable": null,
+			"ownership": null,
+			"memberships": null
+		},
+		"johnsSeal": false
+	},
+	{
+    "name": "Prodigal",
+    "website": "https://getprodigal.com/collections/roasted-coffee",
+    "logo": "img/roaster-logo_prodigal.png",
+    "city": "Booulder",
+    "state": "CO",
+    "description": "A specialty coffee roaster based in Boulder Colorado, founded by Scott Rao and Mark Benedetto. The company focuses on light roasts with high consistency, achieved through a rigorous quality control process that includes blind cupping, strict roasting targets, and optical sorting of green beans.",
+    "extraInfo": {
+            "est": "2021",
+            "awards": true,
+			"notable": [],
+			"ownership": null,
+			"memberships": null
+        },
+    "johnsSeal": false
+    },
+	{
+  	"name": "Modcup",
+	"website": "https://www.modcup.com/collections/all-coffee",
+	"logo": "img/roaster-logo_modcup.png",
+  	"city": "Jersey City",
+  	"state": "NJ",
+  	"description": "With high quality coffee, lighter roasting is better. We roast delicately to preserve the coffee’s natural aromas and brightness.",
+  	"extraInfo": {
+    		"est": "2013",
+		"awards": true,
+		"notable": ["4th place in CoffeeReview Top 30"],
+		"ownership": null,
+		"memberships": ["World Coffee Research", "SCA"]
+  	},
+	"johnsSeal": true
+	},
+	{
+  	"name": "Driftaway",
+	"website": "https://store.driftaway.coffee/collections/coffees",
+	"logo": "img/roaster-logo_driftaway.png",
+  	"city": "Brooklyn",
+  	"state": "NY",
+  	"description": "Our mission is to build an equitable value chain by prioritizing women & minority producers, and we want to make coffee accessible and fun for all consumers.",
+  	"extraInfo": {
+    		"est": "2014",
+		"awards": true,
+		"notable": ["2026 Roaster of the year - Roast magazine"],
+		"ownership": "Immigrant-owned, Woman-led",
+		"memberships": null
+  	},
+	"johnsSeal": true
+	},
+	{
+  	"name": "Wonderstate",
+	"website": "https://wonderstate.com/collections/all",
+	"logo": "img/roaster-logo_wonderstate.png",
+  	"city": "Viroqua",
+  	"state": "WI",
+  	"description": "Wonderstate Coffee has been dedicated to roasting exceptional, ethically sourced coffee that sparks connection, inspires curiosity, and nurtures communities.",
+  	"extraInfo": {
+    		"est": "2005",
+		"awards": true,
+		"notable": ["2025 Roaster of the year - Roast magazine"],
+		"ownership": null,
+		"memberships": ["Certified B corp"]
+  	},
+	"johnsSeal": false
+	},
+	{
+  	"name": "Ceremony",
+	"website": "https://ceremonycoffee.com/collections/coffee",
+	"logo": "img/roaster-logo_ceremony.png",
+  	"city": "Annapolis",
+  	"state": "MD",
+  	"description": "We’ve always believed coffee should be something special, and this simple thought moves us every day to source smarter, roast better, and delight more people again and again.",
+  	"extraInfo": {
+    		"est": "2002",
+		"awards": false,
+		"notable": null,
+		"ownership": null,
+		"memberships": null
+  	},
+	"johnsSeal": false
+	},
+	{
+  	"name": "Little wolf",
+	"website": "https://littlewolf.coffee/collections/coffee",
+	"logo": "img/roaster-logo_littlewolf.png",
+  	"city": "Ipswich",
+  	"state": "MA",
+  	"description": "Passionate about making good coffee, we source only the highest quality green coffee and work with those who seek to do the same. We roast a small, intentional selection with care to bring forth the unique qualities of each one, highlighting what makes them special.",
+  	"extraInfo": {
+    		"est": "2016",
+		"awards": false,
+		"notable": null,
+		"ownership": null,
+		"memberships": null
+  	},
+	"johnsSeal": false
 	}
 ]

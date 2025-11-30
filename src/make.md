@@ -42,6 +42,7 @@ stripImage: /img/make-header_icons.svg
         </div>
     </div>
     <div id="brewSection">
+        <div id="brewImgTop" class="make-image-right-third-small"><img src="/img/brew-prism.svg" /></div>
         <div class="make-text-left-two-thirds">
             <h2>Brew your coffee</h2>
             <p>

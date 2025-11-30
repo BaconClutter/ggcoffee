@@ -177,15 +177,6 @@ form button {
     }
 }
 
-/*
-.page-nav-title {
-  display: inline-block;
-  font-family: "Poetsen One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-*/
-
 .logo-container {
     display: inline-block;
     background-color: var(--UI-PRIMARY-900); 
@@ -202,8 +193,10 @@ form button {
         grid-column: span 8;
         width: 75%;
         margin: auto;
+        z-index: 999;
         @media (max-width: 768px) {
-            font-size: var(--fs-2);
+             grid-column: span 12;
+             z-index: 999;
         }
         h1 {
             font-family: 'poetsen one', sans-serif;
@@ -211,12 +204,16 @@ form button {
             color: var(--UI-PRIMARY-500);
             margin-bottom: 0;
             @media (max-width: 768px) {
-                font-size: var(--fs-7);
+                font-size: var(--fs-5);
             }
         }
         p {
             font-size: var(--fs-3);
             line-height: var(--fs-5);
+            @media (max-width: 768px) {
+                font-size: var(--fs-2);
+                line-height: var(--fs-4);
+            }
         }
     }
     img {
@@ -224,13 +221,25 @@ form button {
         width: 100%;
         height: auto;
         margin-bottom: -20%;
+        @media (max-width: 768px) {
+            position: absolute;
+            grid-column: span 12;
+            margin: 0 0 0 30%;
+            opacity: 0.3;
+            height: 350px;
+        }
     }
     .width-limit {
+        position: relative;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-column: span 12;
         max-width: 1200px; 
-        margin: 0 auto
+        margin: 0 auto;
+        min-height: 270px;
+        @media (max-width: 768px) {
+            position: relative;
+        }
     }
 }
 /*
@@ -239,25 +248,58 @@ form button {
 }
 */
 #makeHero {
-      img {
+    .hero-text {
+         @media (max-width: 768px) {
+            /* grid-column: span 8;*/
+        }
+    }
+    img {
         margin: 2rem auto;
+        @media (max-width: 768px) {
+            margin: 1rem 0 0 0;
+            height: 250px;
+        }
     }
 }
 #knowHero {
     .hero-text {
        grid-column: span 4;
        width:170%;
-       margin: -1rem 0 0 -75%;
+       margin: -1.5rem 0 0 -75%;
        padding-right: 2rem;
+       p {
+            background-color: rgba(255, 255, 255, 0.8);
+            @media (max-width: 768px) {
+                background-color: transparent;
+            }
+       }
+        @media (max-width: 768px) {
+            width:250%;
+            margin: 1.5rem 0 0 -180%;
+        }
     }
      img {
         grid-column: span 8;
         margin-bottom: -5%;
+        @media (max-width: 768px) {
+            position: relative;
+            grid-column: span 8;
+            margin: 1rem 0 0 0;
+            height: auto;
+        }
     }
 }
 #aboutHero {
-      img {
-        margin: 0rem auto;
+    img {
+        position: absolute;
+        margin: 0 auto;
+        bottom: 0;
+        left: 30%;
+        height: 420px;
+         @media (max-width: 768px) {
+            top:0;
+            height: 270px;
+         }
     }
 }
 
@@ -328,12 +370,14 @@ ul.roaster-list {
     }
 }
 .roaster-logo {
-    height: 80px;
+    height: 80px; 
     margin-bottom: 1rem;
     img {
-        height: 100%;
+        height: 100%; 
         width: auto;
-        object-fit: contain;
+        max-width: 200px;
+        max-height: 80px;
+        object-fit: contain; 
     }
 }
 .roaster-meta {
@@ -367,6 +411,16 @@ ul.roaster-list {
         max-width: 1200px; 
         margin: 2rem auto; 
     }
+     @media (max-width: 768px) {
+        padding: 1rem 1rem;
+     }
+}
+
+#grindSection {
+    @media (max-width: 768px) {
+    padding-top: 1rem;
+    margin-top: 1rem !important;
+    }
 }
 
 #makeNav {
@@ -386,21 +440,52 @@ ul.roaster-list {
             text-decoration: underline;
         }
     }
+    @media (max-width: 768px) {
+        margin-bottom: 1rem;
+        a {
+             font-size: var(--fs-2);
+            display: inline-block;
+            margin: 0rem auto;
+        }
+    }
 }
 
 .make-image-left-third {
     grid-column: span 4;
     width: 100%;
     height: auto;
+    @media (max-width: 768px) {
+        grid-column: span 6;
+        padding-left: 0;
+        margin-bottom: -20%;
+    }
 }
 
 .make-image-right-third {
     grid-column: span 4;
     width: 100%;
     height: auto;
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.make-image-right-third-small {
+    display: none;
+    @media (max-width: 768px) {
+        grid-column: span 6;
+        grid-column-end: 12;
+        display: block;
+        margin-bottom: -20%;
+    }
 }
 
 .make-text-right-two-thirds {
+    h2 {
+        @media (max-width: 768px) {
+            text-align: right;
+        }
+    }
     h2, p {
         grid-column: span 12;
     }
@@ -420,6 +505,7 @@ ul.roaster-list {
     grid-column: span 8;
     padding-right: 6rem;
     @media (max-width: 768px) {
+        grid-column: span 12;
         font-size: var(--fs-2);
         padding-right: 0;
     }
@@ -434,6 +520,11 @@ ul.roaster-list {
     }
 }
 
+#brewImgTop {
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
 #bundleSection {
     background-color: var(--UI-PRIMARY-900);
     padding: 1rem 0;
@@ -444,6 +535,20 @@ ul.roaster-list {
     margin: 0 auto; 
 }
 
+#equipmentSection {
+    h2, h3 {
+        @media (max-width: 768px) {
+            text-align: left;
+        }
+    }
+    .make-image-left-third {
+        @media (max-width: 768px) {
+            grid-column: span 6;
+            grid-column-end: 12;
+            margin-bottom: -40%;
+        }
+    }
+}
 
 #linkSection {
     background-color: var(--UI-PRIMARY-900);

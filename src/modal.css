@@ -45,30 +45,25 @@
     align-items: start;
 }
 .modal-left-side {
-    padding: 1.5rem;
-    @media (max-width: 768px) {
-       padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    }
+    display: grid;
+    place-items: center;
+    padding: 0;
+    height: 100%;
 }
 .modal-right-side {
     background-color: var(--UI-PRIMARY-900);
     border-left: var(--UI-PRIMARY-700) 2px solid;
     padding: 1.5rem 1rem 0 1rem;
-    @media (max-width: 768px) {
-        padding-top: 0rem;
-        padding-right: 1rem;
-        text-align: center;
-    }
+    /* mobile adjustments consolidated at bottom of file */
 }
-.modal-logo img {
-    display: block;
-    width: auto;
-    margin: auto;
-    max-height: 400px;
-    border-radius: 4px;
-    background: #fff;
-    @media (max-width: 768px) {
-        max-height: 200px;
+.modal-logo {
+   height: 100%;
+   padding-left: 1rem; 
+    max-width: 100%;
+        height: auto;
+    img {
+        max-width: 100%;
+        height: auto;
     }
 }
 .modal-name {
@@ -84,9 +79,7 @@
 }
 .modal-description {
     margin: 0 0 1rem 0;
-    @media (max-width: 768px) {
-        text-align: left !important;
-    }
+    /* mobile adjustments consolidated at bottom of file */
 }
 .modal-extra {
     display: grid;
@@ -104,9 +97,7 @@
         background-size: 2rem;
         background-repeat: no-repeat;
         background-position: left center;
-        @media (max-width: 768px) {
-            text-align: left !important;
-        }
+        /* mobile adjustments consolidated at bottom of file */
     }
 }
 .roaster-awards {
@@ -148,11 +139,41 @@
 body.modal-open {
     overflow: hidden;
 }
-@media (max-width: 600px) {
+/* Consolidated mobile styles for modal — keep one single media block here */
+@media (max-width: 720px) {
     .modal-body {
         grid-template-columns: 1fr;
     }
+
     .modal-close {
         font-size: var(--fs-4);
+    }
+
+    /* moved mobile adjustments from nested blocks */
+    .modal-left-side {
+        padding: 0.5rem;
+        min-height: 200px;
+    }
+
+    .modal-right-side {
+        padding-top: 0rem;
+        padding-right: 1rem;
+        text-align: center;
+    }
+
+    .modal-logo img {
+        max-height: 200px;
+    }
+
+    .modal-name {
+        margin-top: 1.5rem;
+    }
+
+    .modal-description {
+        text-align: left !important;
+    }
+
+    .modal-extra p {
+        text-align: left !important;
     }
 }
