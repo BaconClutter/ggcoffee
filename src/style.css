@@ -117,11 +117,12 @@ label {
 }
 input {
     height: 2rem;
+    max-width: 400px;
 }
 input, textarea {
     font-size: var(--fs-2);
     display: block;
-    width: 400px;
+    width: 95%;
     border-radius: 4px;
     padding: 8px;
     background-color: white;
