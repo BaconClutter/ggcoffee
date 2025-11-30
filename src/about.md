@@ -22,21 +22,21 @@ stripImage: /img/about-header_icons.svg
         <div class="make-text-left-two-thirds">
             <h2>Get in touch</h2>
             <p>
-                Got a favorite roaster you don't see? Drop me a line. Just wanna rap about tasty hot bean water? I'd love to hear from you.
+                Got a favorite roaster you don't see? Drop me a line. Just wanna rap about tasty hot bean water? Something look wrong or off here? Constructive criticism is always welcome. I'd love to hear from you.
             </p>
             <form name="contact" method="POST" data-netlify="true">
-            <p>
-                <label>Name <input type="text" name="name" /></label>
-            </p>
-            <p>
-                <label>Email <input type="email" name="email" /></label>
-            </p>
-            <p>
-                <label>Message <textarea rows="8" name="message"></textarea></label>
-            </p>
-            <p>
-                <button type="submit">Send</button>
-            </p>
+                <p>
+                    <label>Name <input type="text" name="name" /></label>
+                </p>
+                <p>
+                    <label>Email <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Message <textarea rows="8" name="message"></textarea></label>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
             </form>
         </div>
     </div>
