@@ -116,11 +116,11 @@
     "state": "CO",
     "description": "A specialty coffee roaster based in Boulder Colorado, founded by Scott Rao and Mark Benedetto. The company focuses on light roasts with high consistency, achieved through a rigorous quality control process that includes blind cupping, strict roasting targets, and optical sorting of green beans.",
     "extraInfo": {
-            "est": "2021",
-            "awards": true,
-			"notable": [],
-			"ownership": null,
-			"memberships": null
+		"est": "2021",
+		"awards": true,
+		"notable": [],
+		"ownership": null,
+		"memberships": null
         },
     "johnsSeal": false
     },
@@ -132,7 +132,7 @@
   	"state": "NJ",
   	"description": "With high quality coffee, lighter roasting is better. We roast delicately to preserve the coffee’s natural aromas and brightness.",
   	"extraInfo": {
-    		"est": "2013",
+    	"est": "2013",
 		"awards": true,
 		"notable": ["4th place in CoffeeReview Top 30"],
 		"ownership": null,
@@ -148,7 +148,7 @@
   	"state": "NY",
   	"description": "Our mission is to build an equitable value chain by prioritizing women & minority producers, and we want to make coffee accessible and fun for all consumers.",
   	"extraInfo": {
-    		"est": "2014",
+    	"est": "2014",
 		"awards": true,
 		"notable": ["2026 Roaster of the year - Roast magazine"],
 		"ownership": "Immigrant-owned, Woman-led",
@@ -164,7 +164,7 @@
   	"state": "WI",
   	"description": "Wonderstate Coffee has been dedicated to roasting exceptional, ethically sourced coffee that sparks connection, inspires curiosity, and nurtures communities.",
   	"extraInfo": {
-    		"est": "2005",
+    	"est": "2005",
 		"awards": true,
 		"notable": ["2025 Roaster of the year - Roast magazine"],
 		"ownership": null,
@@ -180,7 +180,7 @@
   	"state": "MD",
   	"description": "We’ve always believed coffee should be something special, and this simple thought moves us every day to source smarter, roast better, and delight more people again and again.",
   	"extraInfo": {
-    		"est": "2002",
+    	"est": "2002",
 		"awards": false,
 		"notable": null,
 		"ownership": null,
@@ -189,19 +189,115 @@
 	"johnsSeal": false
 	},
 	{
-  	"name": "Little wolf",
+  	"name": "Little Wolf",
 	"website": "https://littlewolf.coffee/collections/coffee",
 	"logo": "img/roaster-logo_littlewolf.png",
   	"city": "Ipswich",
   	"state": "MA",
   	"description": "Passionate about making good coffee, we source only the highest quality green coffee and work with those who seek to do the same. We roast a small, intentional selection with care to bring forth the unique qualities of each one, highlighting what makes them special.",
   	"extraInfo": {
-    		"est": "2016",
+    	"est": "2016",
 		"awards": false,
 		"notable": null,
 		"ownership": null,
 		"memberships": null
   	},
 	"johnsSeal": false
+	},
+	{
+  	"name": "Red Drum",
+	"website": "https://www.reddrumroasters.com/shop",
+	"logo": "img/roaster-logo_reddrum.png",
+  	"city": "Durham",
+  	"state": "NC",
+  	"description": "Red Drum Roasters emerged in 2022 from a happy intersection between Thomas’s years of home roasting and the opportunity to found a Durham roastery focused specifically on serving the Durham Farmers Market.",
+  	"extraInfo": {
+    	"est": "2022",
+		"awards": false,
+		"notable": null,
+		"ownership": null,
+		"memberships": null
+  	},
+	"johnsSeal": false
+	},
+	{
+  	"name": "Flower Child",
+	"website": "https://flowerchildcoffee.com/collections/active-coffee",
+	"logo": "img/roaster-logo_flowerchild.png",
+  	"city": "Oakland",
+  	"state": "CA",
+  	"description": "Flower Child is a small roasting and green buying project that is a product of years in the industry. We are procuring the finest green coffees we can find and roasting for clarity. Our approach to roasting aims to transparently showcase each coffee without adding too much or too little development.",
+  	"extraInfo": {
+    	"est": "2021",
+		"awards": false,
+		"notable": null,
+		"ownership": null,
+		"memberships": null
+  	},
+	"johnsSeal": false
+	},
+	{
+  	"name": "Parlor",
+	"website": "https://parlorcoffee.com/pages/shop/#coffee",
+	"logo": "img/roaster-logo_parlor.png",
+  	"city": "Brooklyn",
+  	"state": "NY",
+  	"description": "Founded in 2012 as an underground roastery and pocket square-sized espresso bar, Parlor’s roastery and headquarters now sit on the border of Brooklyn’s historic Navy Yard. Roasting to order every Sunday through Thursday, the team behind Parlor Coffee is dedicated to raising the bar of coffee culture in NYC and beyond.",
+  	"extraInfo": {
+    	"est": "2012",
+		"awards": false,
+		"notable": null,
+		"ownership": null,
+		"memberships": null
+  	},
+	"johnsSeal": false
+	},
+	{
+  	"name": "Hex",
+	"website": "https://hex.coffee",
+	"logo": "img/roaster-logo_hex.png",
+  	"city": "Charlotte",
+  	"state": "NC",
+  	"description": "HEX began as a simple pop-up in charlotte, n.carolina in 2015 with the goal of creating warm, inviting spaces in unfamiliar places and bringing bright, vibrant coffees to our community.",
+  	"extraInfo": {
+    	"est": "2015",
+		"awards": false,
+		"notable": null,
+		"ownership": null,
+		"memberships": null
+  	},
+	"johnsSeal": true
+	},
+	{
+  	"name": "YES PLZ",
+	"website": "https://www.yesplz.coffee/product/single-origin",
+	"logo": "img/roaster-logo_yesplz.png",
+  	"city": "Los Angeles",
+  	"state": "CA",
+  	"description": "We believe great coffee should be for everyone. We started YES PLZ on the simple but bold premise that the best coffee you drink should be coffee you made in your own kitchen — and it’s easy when you begin with great beans.",
+  	"extraInfo": {
+    	"est": "2017",
+		"awards": false,
+		"notable": null,
+		"ownership": null,
+		"memberships": null
+  	},
+	"johnsSeal": true
+	},
+	{
+  	"name": "Klatch",
+	"website": "https://www.klatchcoffee.com/collections/single-origin",
+	"logo": "img/roaster-logo_klatch.png",
+  	"city": "Rancho Cucamonga",
+  	"state": "CA",
+  	"description": "Klatch is a family-owned and run coffee company based in Southern California and distributed worldwide. We source, roast, and brew our own coffee and apply our scientific method to accomplish a taste best described with expletives and exclamations. Some say it’s obsessive, we say it’s fun.",
+  	"extraInfo": {
+    	"est": "1993",
+		"awards": true,
+		"notable": ["Micro Roaster of the Year: 2009 - Roast Magazine", "Overall Champion: 2015, 2016, 2017, 2018 - Golden Bean"],
+		"ownership": null,
+		"memberships": null
+  	},
+	"johnsSeal": true
 	}
 ]

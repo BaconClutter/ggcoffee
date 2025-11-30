@@ -237,8 +237,10 @@ form button {
         max-width: 1200px; 
         margin: 0 auto;
         min-height: 270px;
+        /* overflow-x: hidden; */
         @media (max-width: 768px) {
             position: relative;
+            overflow-x: hidden;
         }
     }
 }
@@ -274,31 +276,33 @@ form button {
             }
        }
         @media (max-width: 768px) {
-            width:250%;
-            margin: 1.5rem 0 0 -180%;
+            grid-column: span 12;
+            width: 90%;
+            margin: 1.5rem 0 0 1rem;
         }
     }
      img {
         grid-column: span 8;
         margin-bottom: -5%;
         @media (max-width: 768px) {
-            position: relative;
-            grid-column: span 8;
+            grid-column: span 12;
             margin: 1rem 0 0 0;
             height: auto;
         }
     }
 }
+
 #aboutHero {
+    overflow-x: hidden;
     img {
         position: absolute;
-        margin: 0 auto;
+         margin: 0 auto;
+         left: 50%;
+        width: auto !important;
+        overflow-x: hidden;
         bottom: 0;
-        left: 30%;
-        height: 420px;
          @media (max-width: 768px) {
-            top:0;
-            height: 270px;
+            left: 40%;
          }
     }
 }
@@ -443,9 +447,10 @@ ul.roaster-list {
     @media (max-width: 768px) {
         margin-bottom: 1rem;
         a {
-             font-size: var(--fs-2);
+            font-size: var(--fs-2);
             display: inline-block;
             margin: 0rem auto;
+            padding: 0.25rem 0.5rem;
         }
     }
 }
@@ -654,6 +659,9 @@ ul.roaster-list {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    @media (max-width: 768px) {
+        gap: 1rem;
+    }
     li a {
         text-decoration: none;
         color: white;
