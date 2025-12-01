@@ -17,7 +17,7 @@ stripImage: /img/get-header_icons.svg
             I hope this helps you find your new favorite place to get good coffee.
             </p>
         </div>
-        <img src="/img/get-hero.svg" />
+        <img src="/img/get-hero.svg" alt="Illustrated hero showing coffee and brewing gear" />
     </div>
 </div>
 <section id="roasterDirectory">

@@ -6,7 +6,7 @@ stripImage: /img/know-header_icons.svg
 ---
 <div id="knowHero" class="hero-section">
     <div class="width-limit">
-        <img src="/img/knowHero.svg" />
+        <img src="/img/knowHero.svg" alt="Illustration: person reading about coffee" />
         <div class="hero-text">
             <h1>
             Knowin' ain't half the battle...

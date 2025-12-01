@@ -1,14 +1,14 @@
 {
   "name": "ggcoffee",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple static site for about getting good",
   "main": "index.js",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy"
   },
   "keywords": [],
-  "author": "",
+  "author": "John Healy",
   "license": "ISC",
   "type": "module",
   "dependencies": {

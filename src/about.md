@@ -11,7 +11,7 @@ stripImage: /img/about-header_icons.svg
             I can explain myself
             </h1>
             <p>
-            Get good coffee is a little web project I made because I really like coffee want to share the things I've learned. Also, I really could never find a list of all of these Third Wave roasters, so that was the main thing. I figurd while I'm here, throw together a few basics and some links so anyone can get up and running at home and experience really, really good coffee without all the fuss that comes with some parts of the high end coffee world.
+            Get good coffee is a little web project I made because I really like coffee and want to share the things I've learned. Also, I really could never find a list of all of these Third Wave roasters, so that was the main thing. I figured while I'm here, throw together a few basics on making coffee and some links so anyone can get up and running at home and experience really, really good coffee without all the fuss that comes with some parts of the high end coffee world.
             </p>
         </div>
         <img src="/img/about.png" alt="an illustration of John"/>

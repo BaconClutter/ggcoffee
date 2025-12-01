@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
+    <!-- SEO / Social defaults; page/frontmatter can override description and ogImage -->
+    <meta name="description" content="{{ description | default: meta.siteDescription }}" />
+    <meta property="og:title" content="{{ title | default: meta.siteName }}" />
+    <meta property="og:description" content="{{ description | default: meta.siteDescription }}" />
+    <meta property="og:image" content="{{ ogImage | default: logoImage | default: '/favicon-96x96.png' }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ meta.url | default: '' }}{{ page.url }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ title | default: meta.siteName }}" />
+    <meta name="twitter:description" content="{{ description | default: meta.siteDescription }}" />
+    <meta name="twitter:image" content="{{ ogImage | default: logoImage | default: '/favicon-96x96.png' }}" />
+    <link rel="canonical" href="{{ meta.url | default: '' }}{{ page.url }}" />
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -18,7 +30,9 @@
     <link rel="stylesheet" href="/modal.css">
     <script defer src="https://cloud.umami.is/script.js" data-website-id="25c6d599-3029-41b4-914a-f4e1ed0b3bee"></script>
 </head>
-<body> 
+<body>
+    <!-- Skip link for keyboard users -->
+    <a href="#content" class="skip-link">Skip to content</a>
     <pre hidden>
 |_ _| | |   / _ \ \   / / ____|  / ___/ _ \|  ___|  ___| ____| ____|
  | |  | |  | | | \ \ / /|  _|   | |  | | | | |_  | |_  |  _| |  _|
@@ -34,9 +48,9 @@
             <!--<h1 class="page-nav-title">{{ title }}</h1>-->
                 <nav>
                     <ul id="navLinks" class="nav-links hide">
-                        <li><a href="/" alt="Get Good Coffee Home"><img src="/img/nav_get-logo.svg" alt="Get Good Coffee Logo" class="nav-logo"></a></li>
-                        <li><a href="/make/" alt="Make Good Coffee"><img src="/img/nav_make-logo.svg" alt="Make Good Coffee Logo" class="nav-logo"></a></li>
-                        <li><a href="/know/" alt="Know Good Coffee"><img src="/img/nav_know-logo.svg" alt="Know Good Coffee Logo" class="nav-logo"></a></li>
+                        <li><a href="/" aria-label="Get Good Coffee — Home"><img src="/img/nav_get-logo.svg" alt="Get Good Coffee Logo" class="nav-logo"></a></li>
+                        <li><a href="/make/" aria-label="Make Good Coffee"><img src="/img/nav_make-logo.svg" alt="Make Good Coffee Logo" class="nav-logo"></a></li>
+                        <li><a href="/know/" aria-label="Know Good Coffee"><img src="/img/nav_know-logo.svg" alt="Know Good Coffee Logo" class="nav-logo"></a></li>
                         <li><button class="nav-close" aria-label="Close menu"><img src="/img/nav-x.svg" alt="Close Menu"></button></li>
                     </ul>
                     <div class="hamburger" role="button" id="navToggle" aria-controls="navLinks" aria-expanded="false" tabindex="0">
@@ -45,7 +59,7 @@
                 </nav>
             </div>
         </header>
-        <main>
+        <main id="content">
             <div>
             <section class="main-content">{{ content }}</section>
             </div>
@@ -65,7 +79,7 @@
         </footer>
     </div>
         <!-- Roaster modal (shared) -->
-        <div id="roasterModal" class="modal hidden" aria-hidden="true" role="dialog" aria-modal="true">
+        <div id="roasterModal" class="modal hidden" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="roasterModalTitle" aria-describedby="roasterModalDesc">
             <div class="modal-backdrop" data-modal-close></div>
             <div class="modal-content" role="document">
                 <button class="modal-close" aria-label="Close" data-modal-close><img src="/img/nav-x.svg" alt="Close Menu"></button>
@@ -74,15 +88,30 @@
                         <div class="modal-logo"><img src="" alt="" /></div>
                     </div>
                     <div class="modal-right-side">
-                        <h2 class="modal-name"></h2>
+                        <h2 id="roasterModalTitle" class="modal-name"></h2>
                         <p class="modal-location"></p>
                         <div class="modal-extra"></div>
-                        <p class="modal-description"></p>
+                        <p id="roasterModalDesc" class="modal-description"></p>
                         <div class="modal-links"></div>
                     </div>
                 </div>
             </div>
         </div>
     <script src="/script.js"></script>
+        <!-- Minimal JSON-LD for site (Organization + WebSite) -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "{{ meta.url | default: '' }}",
+            "name": "{{ meta.siteName | default: site.title }}",
+            "description": "{{ meta.siteDescription | default: site.description }}",
+            "publisher": {
+                "@type": "Organization",
+                "name": "{{ meta.siteName | default: site.title }}",
+                "logo": "{{ logoImage | default: '/favicon-96x96.png' }}"
+            }
+        }
+        </script>
 </body>
 </html>

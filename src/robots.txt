@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap (relative path is OK)
+Sitemap: /sitemap.xml

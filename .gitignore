@@ -5,3 +5,5 @@ node_modules
 public
 
 .DS_Store
+pa11y-report.json
+pa11y-report_after.json

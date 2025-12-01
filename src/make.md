@@ -14,7 +14,7 @@ stripImage: /img/make-header_icons.svg
             You’ll want to make the most of them by storing, grinding and brewing them right.
             </p>
         </div>
-        <img src="/img/makeHero.svg" />
+        <img src="/img/makeHero.svg" alt="Illustration: making coffee at home" />
     </div>
 </div>
 <section id="makeSection"  class="standard-section">
@@ -26,7 +26,7 @@ stripImage: /img/make-header_icons.svg
     </span>
     <div id="grindSection" >
         <div class="make-image-left-third">
-            <img src="/img/grind.svg" />
+            <img src="/img/grind.svg" alt="Illustration of a coffee grinder" />
         </div>
         <div class="make-text-right-two-thirds">
             <h2>Grind your beans</h2>
@@ -42,7 +42,7 @@ stripImage: /img/make-header_icons.svg
         </div>
     </div>
     <div id="brewSection">
-        <div id="brewImgTop" class="make-image-right-third-small"><img src="/img/brew-prism.svg" /></div>
+        <div id="brewImgTop" class="make-image-right-third-small"><img src="/img/brew-prism.svg" alt="Abstract coffee brewing illustration" /></div>
         <div class="make-text-left-two-thirds">
             <h2>Brew your coffee</h2>
             <p>
@@ -76,7 +76,7 @@ stripImage: /img/make-header_icons.svg
     </div>
     <div id="storeSection">
         <div class="make-image-left-third">
-            <img src="/img/store.svg" />
+            <img src="/img/store.svg" alt="Illustration of coffee storage" />
         </div>
         <div class="make-text-right-two-thirds">
             <h2>Store your beans</h2>
@@ -99,7 +99,7 @@ stripImage: /img/make-header_icons.svg
     </div>
     <div id="equipmentSection">
         <div class="make-image-left-third">
-            <img src="/img/gear-group.svg" />
+            <img src="/img/gear-group.svg" alt="Illustration of coffee equipment and accessories" />
         </div>
         <div class="make-text-right-two-thirds">
             <h2>Get the gear</h2>

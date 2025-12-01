@@ -9,6 +9,29 @@ body {
     padding:0;
 }
 
+/* Accessibility: skip-to-content link — visually hidden but visible on keyboard focus */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.skip-link:focus,
+.skip-link:active {
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+    width: auto;
+    height: auto;
+    padding: 0.5rem 1rem;
+    background: var(--UI-PRIMARY-900);
+    color: white;
+    z-index: 9999;
+    border-radius: 4px;
+}
+
 nav {
     text-align: right;
     padding: 1em 1em;
@@ -393,8 +416,20 @@ ul.roaster-list {
 }
 .roaster-extra {
     font-size: var(--fs-1);
-    color: var(--UI-GRAY-500);
+    /* increased contrast for accessibility (was --UI-GRAY-500) */
+    color: var(--UI-GRAY-400);
     padding-top: var(--fs-1);
+}
+
+/* Improve hero link contrast (was flagged by accessibility scan) */
+#getHero .hero-text a,
+.hero-text a {
+    color: var(--UI-PRIMARY-300);
+}
+
+/* Ensure roaster directory subheading meets contrast requirements */
+#roasterDirectory > div > h3 {
+    color: var(--UI-PRIMARY-000);
 }
 
 /* ----------------------------- */

@@ -48,13 +48,15 @@ if (navClose) {
     var modalExtra = modal.querySelector('.modal-extra');
     var modalLinks = modal.querySelector('.modal-links');
 
+    var lastActiveElement = null; // keep track of the element that opened the modal
+
     function openModal(roaster) {
         modalLogoImg.src = roaster.logo || '';
         modalLogoImg.alt = roaster.name ? roaster.name + ' logo' : 'roaster logo';
         modalName.textContent = roaster.name || '';
         modalLocation.textContent = ((roaster.city || '') + (roaster.city && roaster.state ? ', ' : '') + (roaster.state || '')).trim();
         modalDescription.textContent = roaster.description || '';
-        modalLinks.innerHTML = roaster.website ? '<div class="roaster-shop-btn"><a href="' + roaster.website + '" target="_blank" rel="noopener">Shop this roaster</a></div>' : '';
+        modalLinks.innerHTML = roaster.website ? '<div class="roaster-shop-btn"><a href="' + roaster.website + '" target="_blank" rel="noopener noreferrer">Shop this roaster</a></div>' : '';
 
         // Build extra info (support newer extraInfo fields)
         var extraHtml = '';
@@ -74,6 +76,10 @@ if (navClose) {
         if (roaster.johnsSeal) extraHtml += '<p class="roaster-johns-seal">John\'s Seal</p>';
         modalExtra.innerHTML = extraHtml;
 
+        // ensure modal is correctly labeled for assistive tech
+        modal.setAttribute('aria-labelledby', 'roasterModalTitle');
+        modal.setAttribute('aria-describedby', 'roasterModalDesc');
+
         modal.classList.remove('hidden');
         modal.setAttribute('aria-hidden', 'false');
         document.body.classList.add('modal-open');
@@ -86,12 +92,20 @@ if (navClose) {
         modal.classList.add('hidden');
         modal.setAttribute('aria-hidden', 'true');
         document.body.classList.remove('modal-open');
+        // restore focus to the element that opened the modal
+        try {
+            if (lastActiveElement && typeof lastActiveElement.focus === 'function') lastActiveElement.focus();
+        } catch (e) {
+            // no-op
+        }
     }
 
     // Delegate click on roaster items
     document.addEventListener('click', function (e) {
         var el = e.target.closest && e.target.closest('.roaster');
         if (!el) return;
+        // store the triggering element so we can restore focus when the dialog closes
+        lastActiveElement = el;
         var raw = el.getAttribute('data-roaster');
         if (!raw) return;
         try {
