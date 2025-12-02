@@ -1,7 +1,7 @@
 {
   "name": "ggcoffee",
   "version": "1.0.0",
-  "description": "A simple static site for about getting good",
+  "description": "A simple static site for about getting good coffee",
   "main": "index.js",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",

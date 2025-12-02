@@ -112,7 +112,7 @@
     "name": "Prodigal",
     "website": "https://getprodigal.com/collections/roasted-coffee",
     "logo": "img/roaster-logo_prodigal.png",
-    "city": "Booulder",
+    "city": "Boulder",
     "state": "CO",
     "description": "A specialty coffee roaster based in Boulder Colorado, founded by Scott Rao and Mark Benedetto. The company focuses on light roasts with high consistency, achieved through a rigorous quality control process that includes blind cupping, strict roasting targets, and optical sorting of green beans.",
     "extraInfo": {
@@ -299,5 +299,266 @@
 		"memberships": null
   	},
 	"johnsSeal": true
+ 	},
+	{
+		"name": "Amavida",
+		"website": "https://amavida.com/product-category/best-organic-coffee/single-origin-coffee/",
+		"logo": "img/roaster-logo_amavida.jpg",
+		"city": "Santa Rosa Beach",
+		"state": "FL",
+		"description": "We’re leveraging coffee to make the world better. See how we’re pushing the limits of sustainable sourcing and roasting at Amavida Coffee.",
+		"extraInfo": { "est": "2004", "awards": true, "notable": ["2018 Roaster of the year - Roast magazine"], "ownership": null, "memberships": ["Certified B corp"] },
+		"johnsSeal": false
+	},
+	{
+		"name": "Bolt Coffee Co",
+		"website": "https://www.boltcoffeeco.com/shopbolt/shopall",
+		"logo": "img/roaster-logo_boltcoffeeco.png",
+		"city": "Providence",
+		"state": "RI",
+		"description": "We aim to foster meaningful connections by bringing people together in our spaces. We’re grateful to do so through intentionally sourced, roasted, and prepared specialty coffee. Initially offering coffee from a single cart at weddings and a downtown pop-up location in 2012, Bolt now serves the Providence community from two retail locations and a production facility on Smith Hill.",
+		"extraInfo": { "est": "2012", "awards": true, "notable": ["Best Coffee Roaster 2022 - Food & Wine"], "ownership": null, "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "Counter Culture Coffee",
+		"website": "https://counterculturecoffee.com/collections/coffee",
+		"logo": "img/roaster-logo_counterculturecoffee.png",
+		"city": "Durham",
+		"state": "NC",
+		"description": "Counter Culture Coffee is a specialty coffee roaster sourcing exceptional single-origin and specialty coffee. Fresh-roasted coffee to your doorstep.",
+		"extraInfo": { "est": "1995", "awards": true, "notable": null, "ownership": null, "memberships": ["Certified B corp"] },
+		"johnsSeal": false
+	},
+	{
+		"name": "Archetype Coffee",
+		"website": "https://drinkarchetype.com/collections/archetype-coffee",
+		"logo": "img/roaster-logo_drinkarchetype.png",
+		"city": "Omaha",
+		"state": "NE",
+		"description": "Serving small batch roasted coffee, lattes, cappuccinos, macchiatos, or in-house brewed chai, Archetype Coffee is the place to go in Omaha. Visit us in the Blackstone District or Little Bohemia.",
+		"extraInfo": { "est": "2014", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "Duck Rabbit Coffee",
+		"website": "https://www.duckrabbitcoffee.com/shop",
+		"logo": "img/roaster-logo_duckrabbitcoffee.png",
+		"city": "Cleveland",
+		"state": "OH",
+		"description": "duck-rabbit coffee is a coffee roaster in Cleveland, Ohio, US. We are dedicated to offering some of the world’s most incredible, interesting, hard to reach, rare, exotic, and, of course, delicious coffees. We aim to put forward a diverse, well-balanced, interesting, exciting, and frequently rotating menu of coffees fit to satisfy a wide range of tastes, interests, and brew methods. ",
+		"extraInfo": { "est": "2014", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "Equator Coffees",
+		"website": "https://www.equatorcoffees.com",
+		"logo": "img/roaster-logo_equatorcoffees.png",
+		"city": "San Rafael",
+		"state": "CA",
+		"description": "Equator Coffees is a coffee roaster, cafe operator, and coffee farm owner. Founded in 1995, Equator is known for a commitment to sustainably harvested coffee.",
+		"extraInfo": { "est": "1995", "awards": true, "notable": null, "ownership": null, "memberships":  ["Certified B corp"] },
+		"johnsSeal": true
+	},
+	{
+		"name": "Flatlands Coffee",
+		"website": "https://www.flatlandscoffee.com/shop",
+		"logo": "img/roaster-logo_flatlandscoffee.png",
+		"city": "Bowling Green",
+		"state": "OH",
+		"description": "Flatlands Coffee — Ohio-based roastery (please confirm specific city/founding details).",
+		"extraInfo": { "est": "2019", "awards": true, "notable": ["2022 Best Roaster in Ohio - Food & Wine", "3 2019 Bronze medals - Golden Bean"], "ownership": null, "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "Joe Coffee Company",
+		"website": "https://joecoffeecompany.com/collections/coffee",
+		"logo": "img/roaster-logo_joecoffeecompany.png",
+		"city": "New York",
+		"state": "NY",
+		"description": "Joe Coffee Company — New York City-based roaster and café group offering coffee education, wholesale, and nationwide shipping.",
+		"extraInfo": { "est": "2003", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "Lima Coffee Roasters",
+		"website": "https://www.limacoffeeroasters.com/collections/coffee",
+		"logo": "img/roaster-logo_limacoffeeroasters.png",
+		"city": "Fort Collins",
+		"state": "CO",
+		"description": "LOVE PEOPLE. LOVE COFFEE. A local, small batch coffee roastery passionate about serving others.",
+		"extraInfo": { "est": "2018", "awards": true, "notable": ["2023 Community’s Choice Award for Best Local Coffee Shop", "2025 Best of NOCO"], "ownership": "Immigrant-owned", "memberships": null },
+		"johnsSeal": true
+	},
+	{
+		"name": "Madcap Coffee",
+		"website": "https://www.madcapcoffee.com/collections/all-coffee",
+		"logo": "img/roaster-logo_madcapcoffee.png",
+		"city": "Grand Rapids",
+		"state": "MI",
+		"description": "Madcap Coffee’s mission has been to unveil the inspiring craftsmanship and human touch in every cup of specialty coffee, transforming an ordinary daily ritual into an elevated experience. We’re a Michigan roaster with locations in Grand Rapids, Detroit, and Leland",
+		"extraInfo": { "est": "2008", "awards": true, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "Nightswim Coffee",
+		"website": "https://nightswimcoffee.com/collections/coffees",
+		"logo": "img/roaster-logo_nightswimcoffee.png",
+		"city": "Charlotte",
+		"state": "NC",
+		"description": "Night Swim Coffee is a Specialty Coffee Roaster born in Charlotte, North Carolina as the centerpiece of a unified venture for Not Just Coffee and Undercurrent Coffee. We strive to narrate the coffees we roast, honoring the places they come from and the people that dedicate their lives to producing them.",
+		"extraInfo": { "est": "2021", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "Partners Coffee",
+		"website": "https://www.partnerscoffee.com/collections/all-coffees",
+		"logo": "img/roaster-logo_partnerscoffee.png",
+		"city": "Brooklyn",
+		"state": "NY",
+		"description": "Partners Coffee is a specialty coffee roaster based out of Brooklyn with an unwavering commitment to sourcing and roasting quality coffee.",
+		"extraInfo": { "est": "2012", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "Passenger Coffee",
+		"website": "https://drinkpassenger.com/collections/coffee",
+		"logo": "img/roaster-logo_passengercoffee.png",
+		"city": "Lancaster",
+		"state": "PA",
+		"description": "Passenger exists to seek out and thoughtfully present extraordinary coffee and tea that we strive to source from long-term, farmer-focused partnerships.",
+		"extraInfo": { "est": "2014", "awards": true, "notable": ["Best Coffee Shop in Pennsylvania (2022)", "est Coffee Roaster in Pennsylvania (2022)", "Featured on Best Coffee Shops in America lists (2018, 2019)"], "ownership": null, "memberships": ["World Coffee Research"] },
+		"johnsSeal": true
+	},
+	{
+		"name": "Red Rooster Coffee",
+		"website": "https://www.redroostercoffee.com/collections/coffee?tags=single-origin",
+		"logo": "img/roaster-logo_redroostercoffee.png",
+		"city": "Floyd",
+		"state": "VA",
+		"description": "Red Rooster roasts coffees of exceptional quality, with unmatched attention to social and environmental responsibility.",
+		"extraInfo": { "est": "2010", "awards": true, "notable": ["3 time Good Food Awards Winner", "Annual Top 30 Coffees on Coffee Review, 2015-2018, 2020-21, 2023", "50+ coffees scoring 90+ on Coffee Review"], "ownership": null, "memberships": null },
+		"johnsSeal": true
+	},
+	{
+		"name": "Regalia Coffee",
+		"website": "https://regaliacoffee.com",
+		"logo": "img/roaster-logo_regaliacoffee.png",
+		"city": "New York",
+		"state": "NY",
+		"description": "Regalia stands ahead of the curve through its unparalleled roast consistency and quality control metrics. Lead by international roasting instructor Paolo Maliksi, the team at Regalia curates a menu that juxtaposes exemplary lots of traditionally processed coffees alongside innovative, designed-fermented coffees from leading world-class producers.",
+		"extraInfo": { "est": "2017", "awards": true, "notable": ["1st place, Filter - Experimental Processing - GLOBAL COFFEE AWARDS 2025", "Best Coffee Subscription - GQ Magazine"], "ownership": "AAPI", "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "Sunday Coffee Project",
+		"website": "https://sundaycoffeeproject.com/collections/all",
+		"logo": "img/roaster-logo_sundaycoffeeproject.png",
+		"city": "Portland",
+		"state": "OR",
+		"description": "☀️ coffee, apparel & lifestyle goods ☀️",
+		"extraInfo": { "est": "2021", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": true
+	},
+	{
+		"name": "Sweet Bloom Coffee",
+		"website": "https://sweetbloomcoffee.com/shop/coffee/",
+		"logo": "img/roaster-logo_sweetbloomcoffee.png",
+		"city": "Denver",
+		"state": "CO",
+		"description": "Get beautiful, freshly roasted coffee from what Food & Wine magazine has called the best coffee roaster in Colorado.",
+		"extraInfo": { "est": "2013", "awards": true, "notable": ["Two-time U.S. Brewers Cup Champion", "World Brewers Cup Championship runner-up"], "ownership": null, "memberships": null },
+		"johnsSeal": true
+	},
+	{
+		"name": "Verve Coffee",
+		"website": "https://www.vervecoffee.com",
+		"logo": "img/roaster-logo_vervecoffee.png",
+		"city": "Santa Cruz",
+		"state": "CA",
+		"description": "Order Coffee Online from Verve Coffee Roasters. Hand-roasted daily, enjoy craft coffees with unique tasting & roasting profiles. We are committed to innovation and equitable direct trade that plays an active role in every step of the supply chain, investing in individual producers across the globe. We recognize that a producer’s dedication and years of knowledge are fundamental to the caliber and character of the coffees we’re obsessed with and known for.",
+		"extraInfo": { "est": "2007", "awards": true, "notable": ["Roaster of the year 2024 - Roast Magazine"], "ownership": null, "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "Wrecking Ball Coffee",
+		"website": "https://www.wreckingballcoffee.com/collections/all",
+		"logo": "img/roaster-logo_wreckingballcoffee.png",
+		"city": "San Francisco",
+		"state": "CA",
+		"description": "Wrecking Ball Coffee Roasters is a coffee roasting company in the San Francisco Bay Area founded in 2011. We’re working to become the area’s most recognized purveyor of sustainably sourced, expertly roasted specialty coffee, presented with unparalleled service.",
+		"extraInfo": { "est": "2011", "awards": false, "notable": ["Owner Trish Rothgeb credited with coining the term ’Third Wave Coffee’"], "ownership": "Woman owned", "memberships": null },
+		"johnsSeal": false
+	},
+        
+	{
+		"name": "Black & White Coffee Roasters",
+		"website": "https://www.blackwhiteroasters.com/collections/all-coffee",
+		"logo": "img/roaster-logo_blackwhiteroasters.png",
+		"city": "Raleigh",
+		"state": "NC",
+		"description": "At B&W, we’re committed to connecting people to the most interesting and approachable coffees that we can find. We strive to be more than just a quality coffee roaster - we hope to challenge ourselves and our customers to push the envelope of what specialty coffee ‘should’ be and how it should taste. ",
+		"extraInfo": { "est": "2017", "awards": false, "notable": ["Founded by Kyle Ramage and Lem Butler, 2 U.S. Barista Champions"], "ownership": null, "memberships": null },
+		"johnsSeal": true
+	},
+	{
+		"name": "Blueprint Coffee",
+		"website": "https://blueprintcoffee.com/shop/",
+		"logo": "img/roaster-logo_blueprintcoffee.png",
+		"city": "Saint Louis",
+		"state": "MO",
+		"description": "Blueprint Coffee seeks a mutually beneficial relationship loop among our producers, staff, wholesale partners, vendors, and customers – a loop rooted in and sustained by coffee excellence. Good coffee must be good from the start, so we collaborate with sourcing partners to ensure that our coffees are fresh, exciting, and sustainable. Precise roasting, brewing, training, and service models maintain the beauty in these coffees.",
+		"extraInfo": { "est": "2013", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "George Howell Coffee",
+		"website": "https://georgehowellcoffee.com/collections/all-coffee",
+		"logo": "img/roaster-logo_georgehowellcoffee.png",
+		"city": "Acton",
+		"state": "MA",
+		"description": "We buy and roast the finest regional and single farm-sourced coffees for coffee lovers who share in our quest for the ultimate cup! We want our customers to join us as we explore the rainbow of coffee flavors. We treat our coffees with precision and care, from export to storage to roasting to cup.",
+		"extraInfo": { "est": "2004", "awards": true, "notable": ["2007 - Specialty Coffee Association of Europe’s highest honor, the Better Coffee World Award", "George Howell conceived and co-founded the Cup of Excellence in 1999", " Specialty Coffee Association of America (SCAA) awarded George its Lifetime Achievement Award in 1996"], "ownership": null, "memberships": ["Cup of Excellence"] },
+		"johnsSeal": true
+	},
+	{
+		"name": "Heartwood Roastery",
+		"website": "https://www.heartwoodroastery.com/shop",
+		"logo": "img/roaster-logo_heartwoodroastery.png",
+		"city": "Chagrin Falls",
+		"state": "OH",
+		"description": "At heartwood, our mission is to grow together. this means every relationship we make, every partner we work with, every person in the supply chain should be growing, enriching their lives, and thriving from the interaction.",
+		"extraInfo": { "est": "2014", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "La Barba Coffee",
+		"website": "https://labarbacoffee.com/collections/single-origins",
+		"logo": "img/roaster-logo_labarbacoffee.png",
+		"city": "Salt Lake City",
+		"state": "UT",
+		"description": "At La Barba, good coffee is a coffee that satisfies your yearning for the ritual, aromas, flavors, and overall experience of the cup. Not only that, but \"good coffee\" is sourced and sold with consideration of its impact on the well being of farmers, laborers, exporters/importers, delivery drivers, La Barba employees, and customers.",
+		"extraInfo": { "est": "2012", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
+ 		},
+	{
+		"name": "Cxffeeblack",
+		"website": "https://cxffeeblack.com/collections/coffee2023",
+		"logo": "img/roaster-logo_cxffeeblack.png",
+		"city": "Memphis",
+		"state": "TN",
+		"description": "Cxffeeblack is a community-oriented, multi-disciplinary, education-based coffee company. Founded in 2019, by husband and wife team, Bartholomew Jones and Renata Henderson, this social enterprise is on a mission to return coffee to its African roots and in the process create an equitable Black future. Cxffeeblack became a trailblazer in the coffee industry by creating an entirely all Black coffee supply chain from Ethiopia to Memphis, TN, the first of its kind.",
+		"extraInfo": { "est": "2019", "awards": true, "notable": ["15th Annual Sprudgie Award for Most Notable Roaster of the Year", "Inaugural Innovator of the Year Award from the Coffee Coalition for Racial Equity"], "ownership": "Black-owned", "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "Greater Goods Roasting",
+		"website": "https://greatergoodsroasting.com/collections/all-coffee",
+		"logo": "img/roaster-logo_greatergoodsroasting.svg",
+		"city": "Dripping Springs",
+		"state": "TX",
+		"description": "Greater Goods Coffee is a woman-owned, small-batch roasting company based in Dripping Springs, Texas. We’re on a mission to positively impact our communities at home and origin by offering a curated selection of delicious, responsibly-sourced specialty coffee.",
+		"extraInfo": { "est": "2015", "awards": true, "notable": ["2021 Micro Roaster of the Year - Roast Magazine", "2023 Good Food Award"], "ownership": "Woman-owned", "memberships": null },
+		"johnsSeal": false
 	}
 ]

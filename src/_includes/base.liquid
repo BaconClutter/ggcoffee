@@ -45,7 +45,6 @@
                 <div class="logo-container">
                     <img height="100px" src="{{logoImage}}" alt="Get Good Coffee Logo" class="logo">
                 </div>
-            <!--<h1 class="page-nav-title">{{ title }}</h1>-->
                 <nav>
                     <ul id="navLinks" class="nav-links hide">
                         <li><a href="/" aria-label="Get Good Coffee — Home"><img src="/img/nav_get-logo.svg" alt="Get Good Coffee Logo" class="nav-logo"></a></li>
@@ -74,7 +73,7 @@
             </ul>
             <div class="footer-credit">
                 <p>Created with ♥️ and lots of ☕  by <a href="/about/">John</a></p>
-            <p>Built with <a href="https://www.11ty.dev/">11ty</a>, hosted on <a href="https://www.netlify.com/">Netlify</a> &copy; {{ "now" | date: "%Y" }} {{ site.title }}</p>
+            <p>Built with <a href="https://www.11ty.dev/">11ty</a>, hosted on <a href="https://www.netlify.com/">Netlify</a> &copy; {{ "now" | date: "%Y" }} {{ meta.siteName }}</p>
             </div>
         </footer>
     </div>

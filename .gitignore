@@ -4,6 +4,9 @@ node_modules
 # build artefacts
 public
 
+# system
+tools
+
 .DS_Store
 pa11y-report.json
 pa11y-report_after.json

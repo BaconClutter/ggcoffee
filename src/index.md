@@ -36,7 +36,7 @@ stripImage: /img/get-header_icons.svg
             <li class="roaster" data-roaster='{{ roaster | jsonify }}' data-roaster-index="{{ forloop.index0 }}">
                 <div class="roaster-logo"><img src="{{ roaster.logo }}" alt="{{ roaster.name }} logo" /></div>
                 <div class="roaster-meta">{{ roaster.name }} - {{ roaster.city }}, {{ roaster.state }}</div>
-                <div class="roaster-extra">{%- if roaster.extraInfo.est -%}Est:&nbsp;{%- endif -%}{{ roaster.extraInfo.est }}&nbsp;{%- if roaster.extraInfo.notable -%} - Award winning {%- endif -%}</div>
+                <div class="roaster-extra">{%- if roaster.extraInfo.est -%}Est:&nbsp;{%- endif -%}{{ roaster.extraInfo.est }}&nbsp;{%- if roaster.extraInfo.awards -%} - Award winning {%- endif -%}</div>
             </li>
             {%- endfor -%}
         </ul>
