@@ -73,7 +73,7 @@ if (navClose) {
              //   extraHtml += '<div class="roaster-memberships"><ul>' + roaster.extraInfo.memberships.map(function (m) { return '<li>' + m + '</li>'; }).join('') + '</ul></div>';
             }
         }
-        if (roaster.johnsSeal) extraHtml += '<p class="roaster-johns-seal">John\'s Seal</p>';
+        if (roaster.johnsSeal) extraHtml += '<p data-tooltip="I like this one!" data-position="bottom" class="tooltip roaster-johns-seal">John\'s Seal</p>';
         modalExtra.innerHTML = extraHtml;
 
         // ensure modal is correctly labeled for assistive tech
@@ -178,3 +178,27 @@ if (navClose) {
 
     select.addEventListener('change', applyFilter);
 })();
+
+/* TOOLTIP POSITIONING */
+document.addEventListener('DOMContentLoaded', function() {
+    const tooltips = document.querySelectorAll('.tooltip');
+
+    tooltips.forEach(tooltip => {
+        tooltip.addEventListener('mouseover', () => {
+            const tooltipRect = tooltip.getBoundingClientRect();
+            const viewportWidth = window.innerWidth;
+            const viewportHeight = window.innerHeight;
+            const tooltipText = tooltip.getAttribute('data-tooltip');
+            
+            if (tooltipRect.top > 50) {
+                tooltip.setAttribute('data-position', 'top');
+            } else if (viewportHeight - tooltipRect.bottom > 50) {
+                tooltip.setAttribute('data-position', 'bottom');
+            } else if (tooltipRect.left > 50) {
+                tooltip.setAttribute('data-position', 'left');
+            } else if (viewportWidth - tooltipRect.right > 50) {
+                tooltip.setAttribute('data-position', 'right');
+            }
+        });
+    });
+});
