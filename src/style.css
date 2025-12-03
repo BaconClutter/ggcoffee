@@ -36,7 +36,8 @@ nav {
     text-align: right;
     padding: 1em 1em;
     cursor: pointer;
-    grid-column: span 12;
+    width: 100%; /* Fallback for older browsers */
+    grid-column: span 12; /* Grid for modern browsers */
     margin-top:-66px;
 }
 
@@ -124,8 +125,12 @@ header {
 }
 
 header, footer, main {
-  grid-column: span 12; /* Header and footer span all 12 columns */
-  margin: 0;
+    /* Fallback for older browsers */
+    width: 100%;
+    
+    /* Grid for modern browsers */
+    grid-column: span 12;
+    margin: 0;
 }
 
 header, footer {
@@ -175,22 +180,35 @@ form button {
 /* GLOBAL LAYOUT STUFF BELOW */
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr); /* 12 equal-width columns */
-    gap: 8px; /* Spacing between grid items */
-    margin: 0 auto; /* Center the container */
-    row-gap: 0;
+    /* Fallback for older browsers */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
     padding: 0;
+    
+    /* Modern Grid layout */
+    @supports (display: grid) {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 8px;
+        row-gap: 0;
+        flex-wrap: initial;
+    }
 }
 
 .main-content {
-  grid-column: span 12; /* Main content spans 12 columns */
+    /* Fallback for older browsers */
+    width: 100%;
+    
+    /* Grid fallback if @supports not available */
+    grid-column: span 12;
 }
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .main-content, .sidebar {
-        grid-column: span 12; /* On smaller screens, both span all 12 columns */
+        width: 100%;
+        grid-column: span 12; /* Grid for modern browsers */
     }
 }
 
@@ -214,12 +232,19 @@ form button {
     margin: 0 auto;
     background-color: white;
     .hero-text {
-        grid-column: span 8;
+        /* Flexbox fallback */
         width: 75%;
+        flex: 0 0 calc(66.666% - 0.4rem);
+        
+        /* Grid for modern browsers */
+        grid-column: span 8;
+        
         margin: auto;
         z-index: 999;
         @media (max-width: 768px) {
+             flex: 0 0 100%;
              grid-column: span 12;
+             width: 90%;
              z-index: 999;
         }
         h1 {
@@ -241,22 +266,41 @@ form button {
         }
     }
     img {
+        /* Flexbox fallback */
+        width: 25%;
+        flex: 0 0 calc(33.333% - 0.4rem);
+        
+        /* Grid for modern browsers */
         grid-column: span 4;
         width: 100%;
         height: auto;
         margin-bottom: -20%;
         @media (max-width: 768px) {
             position: absolute;
+            flex: 0 0 100%;
             grid-column: span 12;
             margin: 0 0 0 30%;
+            width: 100%;
             opacity: 0.3;
             height: 350px;
         }
     }
     .width-limit {
         position: relative;
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        /* Flexbox fallback */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex: 0 0 100%;
+        
+        /* Grid for modern browsers */
+        @supports (display: grid) {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            width: auto;
+            flex: initial;
+        }
+        
         grid-column: span 12;
         max-width: 1200px; 
         margin: 0 auto;
@@ -289,8 +333,13 @@ form button {
 }
 #knowHero {
     .hero-text {
+       /* Flexbox fallback */
+       flex: 0 0 calc(33.333% - 0.4rem);
+       width: 170%;
+       
+       /* Grid for modern browsers */
        grid-column: span 4;
-       width:170%;
+       
        margin: -1.5rem 0 0 -75%;
        padding-right: 2rem;
        p {
@@ -300,15 +349,22 @@ form button {
             }
        }
         @media (max-width: 768px) {
+            flex: 0 0 100%;
             grid-column: span 12;
             width: 90%;
             margin: 1.5rem 0 0 1rem;
         }
     }
      img {
+        /* Flexbox fallback */
+        flex: 0 0 calc(66.666% - 0.4rem);
+        
+        /* Grid for modern browsers */
         grid-column: span 8;
+        
         margin-bottom: -5%;
         @media (max-width: 768px) {
+            flex: 0 0 100%;
             grid-column: span 12;
             margin: 1rem 0 0 0;
             height: auto;
@@ -373,14 +429,29 @@ ul.roaster-list {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    
+    /* Flexbox fallback for older browsers */
+    display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
-    @media (max-width: 768px) {
-        grid-template-columns: repeat(1, 1fr);
+    
+    /* CSS Grid for modern browsers */
+    @supports (display: grid) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
+    
+    @media (max-width: 768px) {
+        /* Flexbox fallback */
+        flex-direction: column;
+        
+        @supports (display: grid) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    
     li {
-        display:flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -391,6 +462,18 @@ ul.roaster-list {
         border-style: solid;
         padding: var(--fs-1);
         filter: drop-shadow(0 2px 0 rgba(154, 199, 168, 1));
+        
+        /* Fallback width for flexbox (3-column layout ≈ 31% with gap) */
+        width: calc(33.333% - 0.75rem);
+        
+        @supports (display: grid) {
+            width: auto; /* Let grid handle width */
+        }
+        
+        @media (max-width: 768px) {
+            width: 100%; /* Full width on mobile */
+        }
+        
         &:hover {
             background-color: var(--UI-PRIMARY-900);
             cursor: pointer;
@@ -446,8 +529,16 @@ ul.roaster-list {
     padding: 3rem 1.5rem;
     gap: 1rem;
     > div {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        /* Flexbox fallback */
+        display: flex;
+        flex-wrap: wrap;
+        
+        /* Grid for modern browsers */
+        @supports (display: grid) {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+        }
+        
         max-width: 1200px; 
         margin: 2rem auto; 
     }
@@ -492,10 +583,16 @@ ul.roaster-list {
 }
 
 .make-image-left-third {
+    /* Flexbox fallback */
+    flex: 0 0 calc(33.333% - 0.75rem);
+    
+    /* Grid for modern browsers */
     grid-column: span 4;
+    
     width: 100%;
     height: auto;
     @media (max-width: 768px) {
+        flex: 0 0 calc(50% - 0.4rem);
         grid-column: span 6;
         padding-left: 0;
         margin-bottom: -20%;
@@ -503,7 +600,12 @@ ul.roaster-list {
 }
 
 .make-image-right-third {
+    /* Flexbox fallback */
+    flex: 0 0 calc(33.333% - 0.75rem);
+    
+    /* Grid for modern browsers */
     grid-column: span 4;
+    
     width: 100%;
     height: auto;
     @media (max-width: 768px) {
@@ -522,17 +624,27 @@ ul.roaster-list {
 }
 
 .make-text-right-two-thirds {
+    /* Flexbox fallback */
+    flex: 0 0 calc(66.666% - 0.75rem);
+    
+    /* Grid for modern browsers */
+    grid-column: span 8;
+    
     h2 {
         @media (max-width: 768px) {
             text-align: right;
         }
     }
     h2, p {
+        /* Flexbox fallback */
+        width: 100%;
+        
+        /* Grid for modern browsers */
         grid-column: span 12;
     }
-    grid-column: span 8;
     padding-left: 6rem;
     @media (max-width: 768px) {
+        flex: 0 0 100%;
         grid-column: span 12;
         font-size: var(--fs-2);
         padding-left: 0;
@@ -540,12 +652,22 @@ ul.roaster-list {
 }
 
 .make-text-left-two-thirds {
+    /* Flexbox fallback */
+    flex: 0 0 calc(66.666% - 0.75rem);
+    
+    /* Grid for modern browsers */
+    grid-column: span 8;
+    
     h2, p {
+        /* Flexbox fallback */
+        width: 100%;
+        
+        /* Grid for modern browsers */
         grid-column: span 12;
     }
-    grid-column: span 8;
     padding-right: 6rem;
     @media (max-width: 768px) {
+        flex: 0 0 100%;
         grid-column: span 12;
         font-size: var(--fs-2);
         padding-right: 0;
@@ -570,8 +692,17 @@ ul.roaster-list {
     background-color: var(--UI-PRIMARY-900);
     padding: 1rem 0;
     gap: 1rem;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    
+    /* Flexbox fallback */
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* Grid for modern browsers */
+    @supports (display: grid) {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
     max-width: 1200px; 
     margin: 0 auto; 
 }
@@ -595,8 +726,17 @@ ul.roaster-list {
     background-color: var(--UI-PRIMARY-900);
     padding: 1rem 0;
     gap: 1rem;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    
+    /* Flexbox fallback */
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* Grid for modern browsers */
+    @supports (display: grid) {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
     max-width: 1200px; 
     margin: 0 auto; 
 }
@@ -639,8 +779,14 @@ ul.roaster-list {
 }
 
 .grid-third {
+    /* Flexbox fallback */
+    flex: 0 0 calc(33.333% - 1rem);
+    
+    /* Grid for modern browsers */
     grid-column: span 4;
-     @media (max-width: 768px) {
+    
+    @media (max-width: 768px) {
+        flex: 0 0 100%;
         grid-column: span 12;
     }
 }
@@ -654,8 +800,16 @@ ul.roaster-list {
         margin-bottom: 2rem;
     }
     > div {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        /* Flexbox fallback */
+        display: flex;
+        flex-wrap: wrap;
+        
+        /* Grid for modern browsers */
+        @supports (display: grid) {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+        }
+        
         max-width: 1200px; 
         margin: 0rem auto; 
     }
@@ -667,15 +821,28 @@ ul.roaster-list {
     padding: 0;
     gap: 1rem;
     > div {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        /* Flexbox fallback */
+        display: flex;
+        flex-wrap: wrap;
+        
+        /* Grid for modern browsers */
+        @supports (display: grid) {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+        }
+        
         max-width: 1200px; 
         margin: 0rem auto; 
     }
 }
 
 .glossary-entry {
+    /* Flexbox fallback */
+    flex: 0 0 100%;
+    
+    /* Grid for modern browsers */
     grid-column: span 12;
+    
     margin-bottom: 2rem;
     h3 {
         margin-bottom: 0.5rem;

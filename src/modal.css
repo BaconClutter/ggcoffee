@@ -39,10 +39,17 @@
     cursor: pointer;
 }
 .modal-body {
-    display: grid;
-    grid-template-columns: 320px 1fr;
+    /* Flexbox fallback for older browsers */
+    display: flex;
+    flex-direction: row;
     gap: 1rem;
     align-items: start;
+    
+    /* CSS Grid for modern browsers */
+    @supports (display: grid) {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+    }
 }
 .modal-left-side {
     display: grid;
@@ -82,12 +89,25 @@
     /* mobile adjustments consolidated at bottom of file */
 }
 .modal-extra {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* Flexbox fallback for older browsers */
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 1rem;
-        p {
+    
+    /* CSS Grid for modern browsers */
+    @supports (display: grid) {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    p {
         font-weight: 700;
+        /* Grid fallback width */
+        flex: 0 0 calc(50% - 0.5rem);
+        
+        /* Grid for modern browsers */
         grid-column: span 2;
+        
         display: inline-block;
         padding-left: 2.75rem;
         padding-top: 0.25rem;
@@ -197,6 +217,7 @@ body.modal-open {
 /* Consolidated mobile styles for modal — keep one single media block here */
 @media (max-width: 720px) {
     .modal-body {
+        flex-direction: column;
         grid-template-columns: 1fr;
     }
 
