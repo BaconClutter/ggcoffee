@@ -36,7 +36,7 @@ nav {
     text-align: right;
     padding: 1em 1em;
     cursor: pointer;
-    width: 100%; /* Fallback for older browsers */
+   
     grid-column: span 12; /* Grid for modern browsers */
     margin-top:-66px;
 }
@@ -126,7 +126,7 @@ header {
 
 header, footer, main {
     /* Fallback for older browsers */
-    width: 100%;
+   /* width: 100%; */
     
     /* Grid for modern browsers */
     grid-column: span 12;
@@ -134,7 +134,7 @@ header, footer, main {
 }
 
 header, footer {
-    div {
+    & div {
         max-width: 1200px; 
         margin: 0 auto
     }
@@ -419,10 +419,10 @@ form button {
 #roasterDirectory {
     border-top: 2px solid var(--UI-PRIMARY-800);
     background-color: var(--UI-PRIMARY-900);
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
     div {
         max-width: 1200px; 
-        margin: 0 auto
+        margin: 0 auto;
     }
 }
 ul.roaster-list {
@@ -445,6 +445,12 @@ ul.roaster-list {
         /* Flexbox fallback */
         flex-direction: column;
         
+        @supports (display: grid) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 480px) {
         @supports (display: grid) {
             grid-template-columns: repeat(1, 1fr);
         }
@@ -471,7 +477,7 @@ ul.roaster-list {
         }
         
         @media (max-width: 768px) {
-            width: 100%; /* Full width on mobile */
+            width: 95%; /* Full width on mobile */
         }
         
         &:hover {
@@ -877,9 +883,9 @@ ul.roaster-list {
 
 .footer-credit {
     font-size: var(--fs-1);
-    p {
+    & p {
         margin: 0.25rem 0;
-        a {
+        & a {
             color: white;
             text-decoration: underline;
         }
