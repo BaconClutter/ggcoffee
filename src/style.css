@@ -871,7 +871,7 @@ ul.roaster-list {
     @media (max-width: 768px) {
         gap: 1rem;
     }
-    li a {
+    & li a {
         text-decoration: none;
         color: white;
         font-weight: bold;
