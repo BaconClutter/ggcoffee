@@ -68,7 +68,7 @@
    padding-left: 1rem; 
     max-width: 100%;
         height: auto;
-    img {
+    & img {
         max-width: 100%;
         height: auto;
     }
@@ -100,7 +100,7 @@
         grid-template-columns: repeat(4, 1fr);
     }
     
-    p {
+    & p {
         font-weight: 700;
         /* Grid fallback width */
         flex: 0 0 calc(50% - 0.5rem);

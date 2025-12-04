@@ -206,7 +206,7 @@ form button {
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
-    .main-content, .sidebar {
+    & .main-content, .sidebar {
         width: 100%;
         grid-column: span 12; /* Grid for modern browsers */
     }
@@ -231,7 +231,7 @@ form button {
     text-align: left;
     margin: 0 auto;
     background-color: white;
-    .hero-text {
+    & .hero-text {
         /* Flexbox fallback */
         width: 75%;
         flex: 0 0 calc(66.666% - 0.4rem);
@@ -247,7 +247,7 @@ form button {
              width: 90%;
              z-index: 999;
         }
-        h1 {
+        & h1 {
             font-family: 'poetsen one', sans-serif;
             font-size: var(--fs-7);
             color: var(--UI-PRIMARY-500);
@@ -256,7 +256,7 @@ form button {
                 font-size: var(--fs-5);
             }
         }
-        p {
+        &p {
             font-size: var(--fs-3);
             line-height: var(--fs-5);
             @media (max-width: 768px) {
@@ -265,7 +265,7 @@ form button {
             }
         }
     }
-    img {
+    & img {
         /* Flexbox fallback */
         width: 25%;
         flex: 0 0 calc(33.333% - 0.4rem);
@@ -285,7 +285,7 @@ form button {
             height: 350px;
         }
     }
-    .width-limit {
+    & .width-limit {
         position: relative;
         /* Flexbox fallback */
         display: flex;
@@ -323,7 +323,7 @@ form button {
             /* grid-column: span 8;*/
         }
     }
-    img {
+    & img {
         margin: 2rem auto;
         @media (max-width: 768px) {
             margin: 1rem 0 0 0;
@@ -332,7 +332,7 @@ form button {
     }
 }
 #knowHero {
-    .hero-text {
+    & .hero-text {
        /* Flexbox fallback */
        flex: 0 0 calc(33.333% - 0.4rem);
        width: 170%;
@@ -342,7 +342,7 @@ form button {
        
        margin: -1.5rem 0 0 -75%;
        padding-right: 2rem;
-       p {
+       & p {
             background-color: rgba(255, 255, 255, 0.8);
             @media (max-width: 768px) {
                 background-color: transparent;
@@ -355,7 +355,7 @@ form button {
             margin: 1.5rem 0 0 1rem;
         }
     }
-     img {
+    & img {
         /* Flexbox fallback */
         flex: 0 0 calc(66.666% - 0.4rem);
         
@@ -374,7 +374,7 @@ form button {
 
 #aboutHero {
     overflow-x: hidden;
-    img {
+    & img {
         position: absolute;
          margin: 0 auto;
          left: 50%;
@@ -420,7 +420,7 @@ form button {
     border-top: 2px solid var(--UI-PRIMARY-800);
     background-color: var(--UI-PRIMARY-900);
     padding: 1rem 1rem;
-    div {
+    & div {
         max-width: 1200px; 
         margin: 0 auto;
     }
@@ -456,7 +456,7 @@ ul.roaster-list {
         }
     }
     
-    li {
+    & li {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -489,7 +489,7 @@ ul.roaster-list {
 .roaster-logo {
     height: 80px; 
     margin-bottom: 1rem;
-    img {
+    & img {
         height: 100%; 
         width: auto;
         max-width: 200px;
@@ -534,7 +534,7 @@ ul.roaster-list {
     background-color: var(--UI-PRIMARY-900);
     padding: 3rem 1.5rem;
     gap: 1rem;
-    > div {
+    & > div {
         /* Flexbox fallback */
         display: flex;
         flex-wrap: wrap;
@@ -564,7 +564,7 @@ ul.roaster-list {
     display: block;
     text-align: center;
     margin-bottom: 5rem;
-    a {
+   & a {
         background-color: var(--UI-PRIMARY-800);
         border-radius: 4px;
         text-decoration: none;
@@ -579,7 +579,7 @@ ul.roaster-list {
     }
     @media (max-width: 768px) {
         margin-bottom: 1rem;
-        a {
+        & a {
             font-size: var(--fs-2);
             display: inline-block;
             margin: 0rem auto;
@@ -636,12 +636,12 @@ ul.roaster-list {
     /* Grid for modern browsers */
     grid-column: span 8;
     
-    h2 {
+    & h2 {
         @media (max-width: 768px) {
             text-align: right;
         }
     }
-    h2, p {
+    & h2, p {
         /* Flexbox fallback */
         width: 100%;
         
@@ -664,7 +664,7 @@ ul.roaster-list {
     /* Grid for modern browsers */
     grid-column: span 8;
     
-    h2, p {
+    & h2, p {
         /* Flexbox fallback */
         width: 100%;
         
@@ -714,7 +714,7 @@ ul.roaster-list {
 }
 
 #equipmentSection {
-    h2, h3 {
+    & h2, h3 {
         @media (max-width: 768px) {
             text-align: left;
         }
@@ -755,30 +755,30 @@ ul.roaster-list {
     color: var(--UI-PRIMARY-000);
     font-weight: bold;
     font-size: var(--fs-2);
-    > h3 {
+    & > h3 {
         margin-top: 0;
         color: var(--UI-PRIMARY-000);
     }
-     > p > a {
+     & > p > a {
         font-weight: 600;
         color: var(--UI-PRIMARY-400);
         &:hover {
             color: var(--UI-PRIMARY-700);
         }
     }
-    ul {
+    & ul {
         padding-inline-start: 0;
         margin-inline-start: 1.25rem;
         margin-block-end: 0;
     }
-    li > a {
+    & li > a {
         font-weight: 600;
         color: var(--UI-PRIMARY-400);
         &:hover {
             color: var(--UI-PRIMARY-700);
         }
     }
-    > h4 {
+    & > h4 {
         margin-top: 0;
         color: var(--UI-PRIMARY-000);
     }
@@ -800,12 +800,12 @@ ul.roaster-list {
 #Glossary {
     padding: 1rem 1.5rem;
     gap: 1rem;
-    h2 {
+    & h2 {
         color: var(--UI-PRIMARY-400);
         margin-top: 0; 
         margin-bottom: 2rem;
     }
-    > div {
+    & > div {
         /* Flexbox fallback */
         display: flex;
         flex-wrap: wrap;
@@ -826,7 +826,7 @@ ul.roaster-list {
     background-color: var(--UI-SECONDARY-999);
     padding: 0;
     gap: 1rem;
-    > div {
+    & > div {
         /* Flexbox fallback */
         display: flex;
         flex-wrap: wrap;
@@ -850,12 +850,12 @@ ul.roaster-list {
     grid-column: span 12;
     
     margin-bottom: 2rem;
-    h3 {
+    & h3 {
         margin-bottom: 0.5rem;
         font-weight: bold;
         color: var(--UI-PRIMARY-400); 
     }
-    p {
+    & p {
         margin-top: 0;
         color: var(--UI-PRIMARY-000); 
     }
