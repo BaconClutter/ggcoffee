@@ -46,10 +46,6 @@
     align-items: start;
     
     /* CSS Grid for modern browsers */
-    @supports (display: grid) {
-        display: grid;
-        grid-template-columns: 320px 1fr;
-    }
 }
 .modal-left-side {
     display: grid;
@@ -95,10 +91,6 @@
     margin-bottom: 1rem;
     
     /* CSS Grid for modern browsers */
-    @supports (display: grid) {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
     
     & p {
         font-weight: 700;
@@ -212,6 +204,18 @@ body.modal-open {
     top: 50%; /* Center the tooltip */
     transform: translateY(-50%); /* Center the tooltip */
     margin-left: 10px; /* Space between tooltip and element */
+}
+
+
+ @supports (display: grid) {
+    .modal-body {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+    }
+    .modal-extra {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 /* Consolidated mobile styles for modal — keep one single media block here */

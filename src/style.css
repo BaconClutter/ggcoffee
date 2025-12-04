@@ -185,15 +185,6 @@ form button {
     flex-wrap: wrap;
     margin: 0 auto;
     padding: 0;
-    
-    /* Modern Grid layout */
-    @supports (display: grid) {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        gap: 8px;
-        row-gap: 0;
-        flex-wrap: initial;
-    }
 }
 
 .main-content {
@@ -204,20 +195,7 @@ form button {
     grid-column: span 12;
 }
 
-/* Responsive adjustments for smaller screens */
-@media (max-width: 768px) {
-    & .main-content, .sidebar {
-        width: 100%;
-        grid-column: span 12; /* Grid for modern browsers */
-    }
-}
 
-@media (prefers-reduced-motion: reduce) {
-    header {
-        animation: none !important;
-        transition: none !important;
-    }
-}
 
 .logo-container {
     display: inline-block;
@@ -241,30 +219,18 @@ form button {
         
         margin: auto;
         z-index: 999;
-        @media (max-width: 768px) {
-             flex: 0 0 100%;
-             grid-column: span 12;
-             width: 90%;
-             z-index: 999;
-        }
         & h1 {
             font-family: 'poetsen one', sans-serif;
             font-size: var(--fs-7);
             color: var(--UI-PRIMARY-500);
             margin-bottom: 0;
-            @media (max-width: 768px) {
-                font-size: var(--fs-5);
-            }
         }
-        &p {
+        & p {
             font-size: var(--fs-3);
             line-height: var(--fs-5);
-            @media (max-width: 768px) {
-                font-size: var(--fs-2);
-                line-height: var(--fs-4);
-            }
         }
     }
+    
     & img {
         /* Flexbox fallback */
         width: 25%;
@@ -275,15 +241,6 @@ form button {
         width: 100%;
         height: auto;
         margin-bottom: -20%;
-        @media (max-width: 768px) {
-            position: absolute;
-            flex: 0 0 100%;
-            grid-column: span 12;
-            margin: 0 0 0 30%;
-            width: 100%;
-            opacity: 0.3;
-            height: 350px;
-        }
     }
     & .width-limit {
         position: relative;
@@ -294,22 +251,11 @@ form button {
         flex: 0 0 100%;
         
         /* Grid for modern browsers */
-        @supports (display: grid) {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            width: auto;
-            flex: initial;
-        }
-        
         grid-column: span 12;
         max-width: 1200px; 
         margin: 0 auto;
         min-height: 270px;
         /* overflow-x: hidden; */
-        @media (max-width: 768px) {
-            position: relative;
-            overflow-x: hidden;
-        }
     }
 }
 /*
@@ -318,17 +264,8 @@ form button {
 }
 */
 #makeHero {
-    .hero-text {
-         @media (max-width: 768px) {
-            /* grid-column: span 8;*/
-        }
-    }
     & img {
         margin: 2rem auto;
-        @media (max-width: 768px) {
-            margin: 1rem 0 0 0;
-            height: 250px;
-        }
     }
 }
 #knowHero {
@@ -344,9 +281,6 @@ form button {
        padding-right: 2rem;
        & p {
             background-color: rgba(255, 255, 255, 0.8);
-            @media (max-width: 768px) {
-                background-color: transparent;
-            }
        }
         @media (max-width: 768px) {
             flex: 0 0 100%;
@@ -363,12 +297,6 @@ form button {
         grid-column: span 8;
         
         margin-bottom: -5%;
-        @media (max-width: 768px) {
-            flex: 0 0 100%;
-            grid-column: span 12;
-            margin: 1rem 0 0 0;
-            height: auto;
-        }
     }
 }
 
@@ -381,9 +309,6 @@ form button {
         width: auto !important;
         overflow-x: hidden;
         bottom: 0;
-         @media (max-width: 768px) {
-            left: 40%;
-         }
     }
 }
 
@@ -435,27 +360,6 @@ ul.roaster-list {
     flex-wrap: wrap;
     gap: 1rem;
     
-    /* CSS Grid for modern browsers */
-    @supports (display: grid) {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    
-    @media (max-width: 768px) {
-        /* Flexbox fallback */
-        flex-direction: column;
-        
-        @supports (display: grid) {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-
-    @media (max-width: 480px) {
-        @supports (display: grid) {
-            grid-template-columns: repeat(1, 1fr);
-        }
-    }
-    
     & li {
         display: flex;
         flex-direction: column;
@@ -471,14 +375,6 @@ ul.roaster-list {
         
         /* Fallback width for flexbox (3-column layout ≈ 31% with gap) */
         width: calc(33.333% - 0.75rem);
-        
-        @supports (display: grid) {
-            width: auto; /* Let grid handle width */
-        }
-        
-        @media (max-width: 768px) {
-            width: 95%; /* Full width on mobile */
-        }
         
         &:hover {
             background-color: var(--UI-PRIMARY-900);
@@ -538,25 +434,8 @@ ul.roaster-list {
         /* Flexbox fallback */
         display: flex;
         flex-wrap: wrap;
-        
-        /* Grid for modern browsers */
-        @supports (display: grid) {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-        }
-        
         max-width: 1200px; 
         margin: 2rem auto; 
-    }
-     @media (max-width: 768px) {
-        padding: 1rem 1rem;
-     }
-}
-
-#grindSection {
-    @media (max-width: 768px) {
-    padding-top: 1rem;
-    margin-top: 1rem !important;
     }
 }
 
@@ -577,15 +456,6 @@ ul.roaster-list {
             text-decoration: underline;
         }
     }
-    @media (max-width: 768px) {
-        margin-bottom: 1rem;
-        & a {
-            font-size: var(--fs-2);
-            display: inline-block;
-            margin: 0rem auto;
-            padding: 0.25rem 0.5rem;
-        }
-    }
 }
 
 .make-image-left-third {
@@ -597,12 +467,6 @@ ul.roaster-list {
     
     width: 100%;
     height: auto;
-    @media (max-width: 768px) {
-        flex: 0 0 calc(50% - 0.4rem);
-        grid-column: span 6;
-        padding-left: 0;
-        margin-bottom: -20%;
-    }
 }
 
 .make-image-right-third {
@@ -614,19 +478,10 @@ ul.roaster-list {
     
     width: 100%;
     height: auto;
-    @media (max-width: 768px) {
-        display: none;
-    }
 }
 
 .make-image-right-third-small {
     display: none;
-    @media (max-width: 768px) {
-        grid-column: span 6;
-        grid-column-end: 12;
-        display: block;
-        margin-bottom: -20%;
-    }
 }
 
 .make-text-right-two-thirds {
@@ -635,12 +490,6 @@ ul.roaster-list {
     
     /* Grid for modern browsers */
     grid-column: span 8;
-    
-    & h2 {
-        @media (max-width: 768px) {
-            text-align: right;
-        }
-    }
     & h2, p {
         /* Flexbox fallback */
         width: 100%;
@@ -649,12 +498,6 @@ ul.roaster-list {
         grid-column: span 12;
     }
     padding-left: 6rem;
-    @media (max-width: 768px) {
-        flex: 0 0 100%;
-        grid-column: span 12;
-        font-size: var(--fs-2);
-        padding-left: 0;
-    }
 }
 
 .make-text-left-two-thirds {
@@ -672,12 +515,6 @@ ul.roaster-list {
         grid-column: span 12;
     }
     padding-right: 6rem;
-    @media (max-width: 768px) {
-        flex: 0 0 100%;
-        grid-column: span 12;
-        font-size: var(--fs-2);
-        padding-right: 0;
-    }
 }
 
 #brewImg {
@@ -702,30 +539,8 @@ ul.roaster-list {
     /* Flexbox fallback */
     display: flex;
     flex-wrap: wrap;
-    
-    /* Grid for modern browsers */
-    @supports (display: grid) {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-    }
-    
     max-width: 1200px; 
     margin: 0 auto; 
-}
-
-#equipmentSection {
-    & h2, h3 {
-        @media (max-width: 768px) {
-            text-align: left;
-        }
-    }
-    .make-image-left-third {
-        @media (max-width: 768px) {
-            grid-column: span 6;
-            grid-column-end: 12;
-            margin-bottom: -40%;
-        }
-    }
 }
 
 #linkSection {
@@ -736,13 +551,6 @@ ul.roaster-list {
     /* Flexbox fallback */
     display: flex;
     flex-wrap: wrap;
-    
-    /* Grid for modern browsers */
-    @supports (display: grid) {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-    }
-    
     max-width: 1200px; 
     margin: 0 auto; 
 }
@@ -790,11 +598,6 @@ ul.roaster-list {
     
     /* Grid for modern browsers */
     grid-column: span 4;
-    
-    @media (max-width: 768px) {
-        flex: 0 0 100%;
-        grid-column: span 12;
-    }
 }
 
 #Glossary {
@@ -809,13 +612,6 @@ ul.roaster-list {
         /* Flexbox fallback */
         display: flex;
         flex-wrap: wrap;
-        
-        /* Grid for modern browsers */
-        @supports (display: grid) {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-        }
-        
         max-width: 1200px; 
         margin: 0rem auto; 
     }
@@ -830,13 +626,6 @@ ul.roaster-list {
         /* Flexbox fallback */
         display: flex;
         flex-wrap: wrap;
-        
-        /* Grid for modern browsers */
-        @supports (display: grid) {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-        }
-        
         max-width: 1200px; 
         margin: 0rem auto; 
     }
@@ -868,9 +657,6 @@ ul.roaster-list {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    @media (max-width: 768px) {
-        gap: 1rem;
-    }
     & li a {
         text-decoration: none;
         color: white;
@@ -892,5 +678,232 @@ ul.roaster-list {
     }
 }
 
+/* ========================================== */
+/* CONSOLIDATED @supports QUERIES            */
+/* ========================================== */
 
+/* Grid support detection - used for progressive enhancement */
+@supports (display: grid) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 8px;
+        row-gap: 0;
+        flex-wrap: initial;
+    }
+    
+    ul.roaster-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    ul.roaster-list li {
+        width: auto;
+    }
+    
+    .standard-section > div {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
+    #bundleSection {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
+    #linkSection {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
+    #Glossary > div {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
+    .special-section > div {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
+    .hero-section .width-limit {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        width: auto;
+        flex: initial;
+    }
+}
+
+/* ========================================== */
+/* CONSOLIDATED MEDIA QUERIES                */
+/* ========================================== */
+
+/* Tablet and smaller screens (768px and below) */
+@media (max-width: 768px) {
+    .main-content, .sidebar {
+        width: 100%;
+        grid-column: span 12;
+    }
+    
+    .hero-section .hero-text {
+        flex: 0 0 100%;
+        grid-column: span 12;
+        width: 90%;
+        z-index: 999;
+    }
+    
+    .hero-section .hero-text h1 {
+        font-size: var(--fs-5);
+    }
+    
+    .hero-section .hero-text p {
+        font-size: var(--fs-2);
+        line-height: var(--fs-4);
+    }
+    
+    .hero-section img {
+        position: absolute;
+        flex: 0 0 100%;
+        grid-column: span 12;
+        margin: 0 0 0 30%;
+        width: 100%;
+        opacity: 0.3;
+        height: 350px;
+    }
+    
+    .hero-section .width-limit {
+        position: relative;
+        overflow-x: hidden;
+    }
+    
+    #knowHero .hero-text {
+        flex: 0 0 100%;
+        grid-column: span 12;
+        width: 90%;
+        margin: 1.5rem 0 0 1rem;
+    }
+    
+    #knowHero .hero-text p {
+        background-color: transparent;
+    }
+    
+    #knowHero img {
+        flex: 0 0 100%;
+        grid-column: span 12;
+        margin: 1rem 0 0 0;
+        height: auto;
+    }
+    
+    #aboutHero img {
+        left: 40%;
+    }
+    
+    #makeHero img {
+        margin: 1rem 0 0 0;
+        height: 250px;
+    }
+    
+    .make-image-left-third {
+        flex: 0 0 calc(50% - 0.4rem);
+        grid-column: span 6;
+        padding-left: 0;
+        margin-bottom: -20%;
+    }
+    
+    .make-image-right-third {
+        display: none;
+    }
+    
+    .make-image-right-third-small {
+        grid-column: span 6;
+        grid-column-end: 12;
+        display: block;
+        margin-bottom: -20%;
+    }
+    
+    .make-text-right-two-thirds {
+        flex: 0 0 100%;
+        grid-column: span 12;
+        font-size: var(--fs-2);
+        padding-left: 0;
+    }
+    
+    .make-text-right-two-thirds h2 {
+        text-align: right;
+    }
+    
+    .make-text-left-two-thirds {
+        flex: 0 0 100%;
+        grid-column: span 12;
+        font-size: var(--fs-2);
+        padding-right: 0;
+    }
+    
+    .standard-section {
+        padding: 1rem 1rem;
+    }
+    
+    #grindSection {
+        padding-top: 1rem;
+        margin-top: 1rem !important;
+    }
+    
+    #makeNav {
+        margin-bottom: 1rem;
+    }
+    
+    #makeNav & a {
+        font-size: var(--fs-2);
+        display: inline-block;
+        margin: 0rem auto;
+        padding: 0.25rem 0.5rem;
+    }
+    
+    .grid-third {
+        flex: 0 0 100%;
+        grid-column: span 12;
+    }
+    
+    #equipmentSection h2,
+    #equipmentSection h3 {
+        text-align: left;
+    }
+    
+    #equipmentSection .make-image-left-third {
+        grid-column: span 6;
+        grid-column-end: 12;
+        margin-bottom: -40%;
+    }
+    
+    .footer-links {
+        gap: 1rem;
+    }
+    
+    ul.roaster-list li {
+        width: 95%;
+    }
+    
+    @supports (display: grid) {
+        ul.roaster-list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+/* Mobile phones (480px and below) */
+@media (max-width: 480px) {
+    @supports (display: grid) {
+        ul.roaster-list {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    header {
+        animation: none !important;
+        transition: none !important;
+    }
+}
 
