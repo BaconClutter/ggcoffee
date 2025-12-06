@@ -12,7 +12,6 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("**/*.css");
   eleventyConfig.addPassthroughCopy("./src/script.js");
-  //eleventyConfig.addPassthroughCopy("./src/img/");
   // Special cases for images not handled by eleventy-image
   eleventyConfig.addPassthroughCopy("./src/img/*_icons.png");
   eleventyConfig.addPassthroughCopy("./src/img/roaster-logo_*.png");

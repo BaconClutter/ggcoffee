@@ -260,11 +260,7 @@ form button {
         /* overflow-x: hidden; */
     }
 }
-/*
-#getHero {
 
-}
-*/
 #makeHero {
     & img, picture {
         margin: 2rem auto;
@@ -319,113 +315,6 @@ form button {
 }
 
 /* PAGE SPECIFIC STUFF STUFF BELOW */
-
-/* ----------------------------- */
-/* START ROASTER STUFF ----------- */
-/* ----------------------------- */
-
-/* Filter control styles */
-.roaster-filter {
-    padding: 0 0 1rem 0;
-    text-align: right;
-    align-items: center;
-    gap: 0.5rem;
-}
-.roaster-filter label {
-    display: none;
-}
-.roaster-filter select {
-    cursor: pointer;
-    background-color: var(--UI-PRIMARY-600);
-    appearance: none; 
-    color: white;
-    font-size: var(--fs-2);
-    font-weight: bold;
-    padding: 0.5rem 1.75rem 0.5rem 1rem;
-    border-radius: 4px;
-    background-image: url('img/dropdown-arrow.svg');
-    background-repeat: no-repeat;
-    background-position: right 0.5rem center;
-}
-#roasterDirectory {
-    border-top: 2px solid var(--UI-PRIMARY-800);
-    background-color: var(--UI-PRIMARY-900);
-    padding: 1rem 1rem;
-    & div {
-        max-width: 1200px; 
-        margin: 0 auto;
-    }
-}
-ul.roaster-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    
-    /* Flexbox fallback for older browsers */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    
-    & li {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        background-color: white;
-        border-radius: 4px;
-        border-color: var(--UI-PRIMARY-800);
-        border-width: 1px;
-        border-style: solid;
-        padding: var(--fs-1);
-        filter: drop-shadow(0 2px 0 rgba(154, 199, 168, 1));
-        
-        /* Fallback width for flexbox (3-column layout ≈ 31% with gap) */
-        width: calc(33.333% - 0.75rem);
-        
-        &:hover {
-            background-color: var(--UI-PRIMARY-900);
-            cursor: pointer;
-        }
-    }
-}
-.roaster-logo {
-    height: 80px; 
-    margin-bottom: 1rem;
-    & img {
-        height: 100%; 
-        width: auto;
-        max-width: 200px;
-        max-height: 80px;
-        object-fit: contain; 
-    }
-}
-.roaster-meta {
-    font-size: var(--fs-2);
-    color: var(--UI-PRIMARY-300);
-    font-weight: bold;
-    padding-top: var(--fs-1);
-}
-.roaster-extra {
-    font-size: var(--fs-1);
-    /* increased contrast for accessibility (was --UI-GRAY-500) */
-    color: var(--UI-GRAY-400);
-    padding-top: var(--fs-1);
-}
-
-/* Improve hero link contrast (was flagged by accessibility scan) */
-#getHero .hero-text a,
-.hero-text a {
-    color: var(--UI-PRIMARY-300);
-}
-
-/* Ensure roaster directory subheading meets contrast requirements */
-#roasterDirectory > div > h3 {
-    color: var(--UI-PRIMARY-000);
-}
-
-/* ----------------------------- */
-/* END ROASTER STUFF ----------- */
-/* ----------------------------- */
 
 #makeSection > div {
     margin: 8rem auto; 
@@ -524,11 +413,11 @@ ul.roaster-list {
 }
 
 #brewImg {
-    background-image: url("img/brew-prism.svg");
+    background-image: url("/img/brew-prism.svg");
     background-repeat: no-repeat;
     background-position: 0 50px;
     &:hover {
-        background-image: url("img/brew-prism-hover.svg");
+        background-image: url("/img/brew-prism-hover.svg");
     }
 }
 
@@ -696,15 +585,6 @@ ul.roaster-list {
         gap: 8px;
         row-gap: 0;
         flex-wrap: initial;
-    }
-    
-    ul.roaster-list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    
-    ul.roaster-list li {
-        width: auto;
     }
     
     .standard-section > div {
@@ -913,29 +793,11 @@ ul.roaster-list {
         gap: 1rem;
     }
     
-    ul.roaster-list li {
-        width: 95%;
-    }
-    
-    @supports (display: grid) {
-        ul.roaster-list {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
 }
 
 @media (max-width: 560px) {
     #getHero .hero-text {
         grid-column: span 12;
-    }
-}
-
-/* Mobile phones (480px and below) */
-@media (max-width: 480px) {
-    @supports (display: grid) {
-        ul.roaster-list {
-            grid-template-columns: repeat(1, 1fr);
-        }
     }
 }
 

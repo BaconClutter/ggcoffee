@@ -3,7 +3,12 @@ title: GET GOOD COFFEE
 layout: "base.liquid"
 logoImage: /img/get-logo.svg
 stripImage: /img/get-header_icons.png
+modalcss: modal.css
+roasterscss: roasters.css
 ---
+<link rel="stylesheet" href="assets/{{modalcss}}">
+<link rel="stylesheet" href="assets/{{roasterscss}}">
+
 <div id="getHero" class="hero-section">
     <div class="width-limit">
         <div class="hero-text">
