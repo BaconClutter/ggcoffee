@@ -40,7 +40,9 @@ ul.nav-links {
         padding: 0.25rem 0.5rem;
     }
     & .nav-logo {
-        height: 18rem;
+        /* height: 18rem; */
+        width: 100%;
+        height: auto;
     }
     & .nav-close {
         position: absolute;

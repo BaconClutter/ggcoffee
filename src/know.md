@@ -2,7 +2,7 @@
 title: KNOW GOOD COFFEE
 layout: "base.liquid"
 logoImage: /img/know-logo.svg
-stripImage: /img/know-header_icons.svg
+stripImage: /img/know-header_icons.png
 ---
 <div id="knowHero" class="hero-section">
     <div class="width-limit">

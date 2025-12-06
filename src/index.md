@@ -2,7 +2,7 @@
 title: GET GOOD COFFEE
 layout: "base.liquid"
 logoImage: /img/get-logo.svg
-stripImage: /img/get-header_icons.svg
+stripImage: /img/get-header_icons.png
 ---
 <div id="getHero" class="hero-section">
     <div class="width-limit">
@@ -17,7 +17,7 @@ stripImage: /img/get-header_icons.svg
             I hope this helps you find your new favorite place to get good coffee.
             </p>
         </div>
-        <img src="/img/get-hero.svg" alt="Illustrated hero showing coffee and brewing gear" />
+        <img src="/img/get-hero.svg" alt="Illustrated hero showing coffee and brewing gear" width="400" />
     </div>
 </div>
 <section id="roasterDirectory">
@@ -34,7 +34,7 @@ stripImage: /img/get-header_icons.svg
         {% assign sortedRoasters = roasters | sort: "name" %}
             {%- for roaster in sortedRoasters -%}
             <li class="roaster" data-roaster='{{ roaster | jsonify }}' data-roaster-index="{{ forloop.index0 }}">
-                <div class="roaster-logo"><img src="{{ roaster.logo }}" alt="{{ roaster.name }} logo" /></div>
+                <div class="roaster-logo"><img src="{{ roaster.logo }}" alt="{{ roaster.name }} logo" width="200"/></div>
                 <div class="roaster-meta">{{ roaster.name }} - {{ roaster.city }}, {{ roaster.state }}</div>
                 <div class="roaster-extra">{%- if roaster.extraInfo.est -%}Est:&nbsp;{%- endif -%}{{ roaster.extraInfo.est }}&nbsp;{%- if roaster.extraInfo.awards -%} - Award winning {%- endif -%}</div>
             </li>

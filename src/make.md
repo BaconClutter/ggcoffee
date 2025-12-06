@@ -2,7 +2,7 @@
 title: MAKE GOOD COFFEE
 layout: "base.liquid"
 logoImage: /img/make-logo.svg
-stripImage: /img/make-header_icons.svg
+stripImage: /img/make-header_icons.png
 ---
 <div id="makeHero" class="hero-section">
     <div class="width-limit">
@@ -26,7 +26,7 @@ stripImage: /img/make-header_icons.svg
     </span>
     <div id="grindSection" >
         <div class="make-image-left-third">
-            <img src="/img/grind.svg" alt="Illustration of a coffee grinder" />
+            <img src="/img/grind.svg" alt="Illustration of a coffee grinder" width="400"/>
         </div>
         <div class="make-text-right-two-thirds">
             <h2>Grind your beans</h2>
@@ -42,7 +42,7 @@ stripImage: /img/make-header_icons.svg
         </div>
     </div>
     <div id="brewSection">
-        <div id="brewImgTop" class="make-image-right-third-small"><img src="/img/brew-prism.svg" alt="Abstract coffee brewing illustration" /></div>
+        <div id="brewImgTop" class="make-image-right-third-small"><img src="/img/brew-prism.svg" alt="Abstract coffee brewing illustration" width="400"/></div>
         <div class="make-text-left-two-thirds">
             <h2>Brew your coffee</h2>
             <p>
@@ -76,7 +76,7 @@ stripImage: /img/make-header_icons.svg
     </div>
     <div id="storeSection">
         <div class="make-image-left-third">
-            <img src="/img/store.svg" alt="Illustration of coffee storage" />
+            <img src="/img/store.svg" alt="Illustration of coffee storage" width="400" />
         </div>
         <div class="make-text-right-two-thirds">
             <h2>Store your beans</h2>
@@ -99,7 +99,7 @@ stripImage: /img/make-header_icons.svg
     </div>
     <div id="equipmentSection">
         <div class="make-image-left-third">
-            <img src="/img/gear-group.svg" alt="Illustration of coffee equipment and accessories" />
+            <img src="/img/gear-group.svg" alt="Illustration of coffee equipment and accessories" width="400"/>
         </div>
         <div class="make-text-right-two-thirds">
             <h2>Get the gear</h2>

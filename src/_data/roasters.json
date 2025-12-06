@@ -81,7 +81,7 @@
 	{
 		"name": "Hydrangea",
 		"website": "https://hydrangea.coffee",
-		"logo": "img/roaster-logo_hydrangea.jpg",
+		"logo": "img/roaster-logo_hydrangea.png",
 		"city": "Berkeley",
 		"state": "CA",
 		"description": "Light, Fruit-forward, Experimental Coffees Process. Enhancing flavor development through modern fermentation techniques.",
@@ -303,7 +303,7 @@
 	{
 		"name": "Amavida",
 		"website": "https://amavida.com/product-category/best-organic-coffee/single-origin-coffee/",
-		"logo": "img/roaster-logo_amavida.jpg",
+		"logo": "img/roaster-logo_amavida.png",
 		"city": "Santa Rosa Beach",
 		"state": "FL",
 		"description": "We’re leveraging coffee to make the world better. See how we’re pushing the limits of sustainable sourcing and roasting at Amavida Coffee.",
@@ -554,7 +554,7 @@
 	{
 		"name": "Greater Goods Roasting",
 		"website": "https://greatergoodsroasting.com/collections/all-coffee",
-		"logo": "img/roaster-logo_greatergoodsroasting.svg",
+		"logo": "img/roaster-logo_greatergoodsroasting.png",
 		"city": "Dripping Springs",
 		"state": "TX",
 		"description": "Greater Goods Coffee is a woman-owned, small-batch roasting company based in Dripping Springs, Texas. We’re on a mission to positively impact our communities at home and origin by offering a curated selection of delicious, responsibly-sourced specialty coffee.",
