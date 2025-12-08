@@ -560,5 +560,45 @@
 		"description": "Greater Goods Coffee is a woman-owned, small-batch roasting company based in Dripping Springs, Texas. We’re on a mission to positively impact our communities at home and origin by offering a curated selection of delicious, responsibly-sourced specialty coffee.",
 		"extraInfo": { "est": "2015", "awards": true, "notable": ["2021 Micro Roaster of the Year - Roast Magazine", "2023 Good Food Award"], "ownership": "Woman-owned", "memberships": null },
 		"johnsSeal": false
+	},
+	{
+		"name": "Heart Roasters",
+		"website": "https://www.heartroasters.com/collections/beans",
+		"logo": "img/roaster-logo_heartroasters.png",
+		"city": "Portland",
+		"state": "OR",
+		"description": "Heart’s doors opened in 2009 with the idea that a great cup should highlight the distinct fruit flavors that are found in coffee. Built from the love to innovate and create an exceptional coffee experience, heart is owned and operated by Rebekah & Wille Yli-Luoma.",
+		"extraInfo": { "est": "2009", "awards": true, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
+	},
+	{
+		"name": "Devoción",
+		"website": "https://www.devocion.com/collections",
+		"logo": "img/roaster-logo_devocion.png",
+		"city": "Brooklyn",
+		"state": "NY",
+		"description": "Colombian-born Steven Sutton launched Devoción in 2006 to produce the freshest coffee imaginable — roasting provides only half of coffee’s flavor, while mere freshness of the beans does the rest of the work. And yet, most coffee beans sit around for months, losing flavor every day. That’s why the Devoción team does everything short of picking the cherry, and do it faster than anyone else — we hand-select our farm partners, dry-mill at our Bogotá facility, control the export process, and roast in Brooklyn.",
+		"extraInfo": { "est": "2006", "awards": true, "notable": ["Good Food Award Finalist - 2021"], "ownership": null, "memberships": ["Certified B corp"] },
+		"johnsSeal": true
+	},
+	{
+		"name": "Tandem Coffee Roasters",
+		"website": "https://www.tandemcoffee.com/collections/single-origin-coffees",
+		"logo": "img/roaster-logo_tandemcoffeeroasters.png",
+		"city": "Portland",
+		"state": "ME",
+		"description": "Tandem Coffee is a wholesale coffee roaster with two cafes in Portland, ME. Tandem offers a rotating list of single-origin coffees and seasonal blends. They feel passionate about sourcing at origin and working in partnership with small growers and specialty importers.",
+		"extraInfo": { "est": "2012", "awards": false, "notable": null, "ownership": null, "memberships": null},
+		"johnsSeal": true
+	},
+	{
+		"name": "Estellar Coffee",
+		"website": "https://estellarcoffee.com/collections/frontpage",
+		"logo": "img/roaster-logo_estellar.png",
+		"city": "Los Angeles",
+		"state": "CA",
+		"description": "We believe that the journey from bean to cup is a meticulous process that deserves the utmost attention. By sourcing only the highest quality beans through direct relationships with producers, we ensure that every sip of our coffee reflects the dedication to delivering an extraordinary coffee experience.",
+		"extraInfo": { "est": "2022", "awards": false, "notable": null, "ownership": "Woman-owned", "memberships": null},
+		"johnsSeal": true
 	}
 ]
