@@ -1,304 +1,193 @@
 [
     {
-  	"name": "Little Waves",
-	"website": "https://littlewaves.coffee/collections/current-coffees",
-	"logo": "img/roaster-logo_littlewaves.png",
-  	"city": "Durham",
-  	"state": "NC",
-  	"description": "Little Waves Coffee Roasters is an award winning impact-driven group of thinkers, dreamers, and doers who delight in the enduring power of coffee as a shared experience. By making small, determined reverberations through sourcing, roasting, and brewing, we add our open-hearted energy to the tides that unconceal and uphold the beauty of coffee and life. ",
-  	"extraInfo": {
-    		"est": "2010",
-			"awards": true,
-			"notable": ["2022 roaster of the year - Roast Magazine", "Co-Founder & Green Buyer, Areli, Selected as 2025 Sprudge Twenty"],
-			"ownership": "Latina owned",
-			"memberships": ["World Coffee Research", "SCA"]
-  		},
-	"johnsSeal": true
+		"name": "Little Waves Coffee Roasters",
+		"website": "https://littlewaves.coffee/collections/current-coffees",
+		"logo": "img/roaster-logo_littlewaves.png",
+		"city": "Durham",
+		"state": "NC",
+		"description": "Little Waves Coffee Roasters is an award winning impact-driven group of thinkers, dreamers, and doers who delight in the enduring power of coffee as a shared experience. By making small, determined reverberations through sourcing, roasting, and brewing, we add our open-hearted energy to the tides that unconceal and uphold the beauty of coffee and life. ",
+		"extraInfo": {"est": "2010", "awards": true, "notable": ["2022 roaster of the year - Roast Magazine", "Co-Founder & Green Buyer, Areli, Selected as 2025 Sprudge Twenty"], "ownership": "Latina-owned", "memberships": ["World Coffee Research", "SCA"]},
+		"johnsSeal": true
 	},
     {
-  	"name": "JBC",
-	"website": "https://jbccoffeeroasters.com/product-category/coffee/",
-	"logo": "img/roaster-logo_jbc.png",
-  	"city": "Madison",
-  	"state": "WI",
-  	"description": "Unparalleled quality, a human story, and sustainability – that’s our coffee philosophy.",
-  	"extraInfo": {
-    		"est": "1994",
-			"awards": true,
-			"notable": ["One of 28 Best Coffee Roasters in America 2022 - Gear Patrol", "Six Time Good Food Award Winners (2016, 2018, 2020, 2021, 2022, 2025)"],
-			"ownership": null,
-			"memberships": null
-  		},
-	"johnsSeal": true
+		"name": "JBC Roasters",
+		"website": "https://jbccoffeeroasters.com/product-category/coffee/",
+		"logo": "img/roaster-logo_jbc.png",
+		"city": "Madison",
+		"state": "WI",
+		"description": "Unparalleled quality, a human story, and sustainability – that’s our coffee philosophy.",
+		"extraInfo": { "est": "1994", "awards": true, "notable": ["One of 28 Best Coffee Roasters in America 2022 - Gear Patrol", "Six Time Good Food Award Winners (2016, 2018, 2020, 2021, 2022, 2025)"], "ownership": null, "memberships": null},
+		"johnsSeal": true
 	},
     {
-  	"name": "PERC",
-	"website": "https://perccoffee.com/collections/coffee",
-	"logo": "img/roaster-logo_perc.png",
-  	"city": "Savannah",
-  	"state": "GA",
-  	"description": "Our mission is to share good times and awesome coffee with you at every step of your coffee journey. We source mind-blowing coffees from the world’s top producers and roast them with love and relentless curiosity. Our roast profiles maximize the natural sweetness and character of each coffee. We’re super excited about these coffees and we’re thrilled to share them with you!",
-  	"extraInfo": {
-    		"est": "2010",
-    		"awards": false,
-    		"notable": null,
-			"ownership": null,
-			"memberships": null
-  		},
-	"johnsSeal": true
+		"name": "PERC Coffee",
+		"website": "https://perccoffee.com/collections/coffee",
+		"logo": "img/roaster-logo_perc.png",
+		"city": "Savannah",
+		"state": "GA",
+		"description": "Our mission is to share good times and awesome coffee with you at every step of your coffee journey. We source mind-blowing coffees from the world’s top producers and roast them with love and relentless curiosity. Our roast profiles maximize the natural sweetness and character of each coffee. We’re super excited about these coffees and we’re thrilled to share them with you!",
+		"extraInfo": { "est": "2010", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": true
 	},
     {
-  	"name": "ONYX",
-	"website": "https://onyxcoffeelab.com/collections/coffee",
-	"logo": "img/roaster-logo_onyx.png",
-  	"city": "Rogers",
-  	"state": "AR",
-  	"description": "Years ago we started telling each other to “Never Settle for Good Enough.” It felt perhaps like a piece of branding or a slogan, but over the years this mentality has developed into a mantra of its own that permeates every thing that we do at Onyx.",
-  	"extraInfo": {
-    		"est": "2012",
-    		"awards": true,
-    		"notable": ["Good Food Award Winner - 2014, 2015, 2019", "2024 10 Best Independent Coffee Shops - 4th Place, USA Today"],
-			"ownership": null,
-			"memberships": ["SCA"]
-  		},
-	"johnsSeal": true
+		"name": "ONYX Coffee Lab",
+		"website": "https://onyxcoffeelab.com/collections/coffee",
+		"logo": "img/roaster-logo_onyx.png",
+		"city": "Rogers",
+		"state": "AR",
+		"description": "Years ago we started telling each other to “Never Settle for Good Enough.” It felt perhaps like a piece of branding or a slogan, but over the years this mentality has developed into a mantra of its own that permeates every thing that we do at Onyx.",
+		"extraInfo": { "est": "2012", "awards": true, "notable": ["Good Food Award Winner - 2014, 2015, 2019", "2024 10 Best Independent Coffee Shops - 4th Place, USA Today"], "ownership": null, "memberships": ["SCA"] },
+		"johnsSeal": true
 	},
 	{
-		"name": "Utopian",
+		"name": "Utopian Coffee",
 		"website": "https://utopiancoffee.com/collections/coffee",
 		"logo": "img/roaster-logo_utopian.png",
 		"city": "Fort Wayne",
 		"state": "IN",
 		"description": "Utopian Coffee is a coffee roaster founded in 2006. Utopian Coffee is known for its unparalleled commitment to sustainably harvested coffee.",
-		"extraInfo": {
-			"est": "2006",
-			"notable": null,
-			"ownership": null,
-			"memberships": null
-		},
+		"extraInfo": { "est": "2006", "notable": null, "ownership": null, "memberships": null },
 		"johnsSeal": true
 	},
 	{
-		"name": "Hydrangea",
+		"name": "Hydrangea Coffee",
 		"website": "https://hydrangea.coffee",
 		"logo": "img/roaster-logo_hydrangea.png",
 		"city": "Berkeley",
 		"state": "CA",
 		"description": "Light, Fruit-forward, Experimental Coffees Process. Enhancing flavor development through modern fermentation techniques.",
-		"extraInfo": {
-			"est": null,
-			"notable": null,
-			"ownership": null,
-			"memberships": null
-		},
+		"extraInfo": { "est": null, "notable": null, "ownership": null, "memberships": null },
 		"johnsSeal": true
 	},
 	{
-		"name": "Broadsheet",
+		"name": "Broadsheet Coffee Roasters",
 		"website": "https://broadsheetcoffee.com/collections/all-coffee",
 		"logo": "img/roaster-logo_broadsheet.png",
 		"city": "Cambridge",
 		"state": "MA",
 		"description": "Discover the finest specialty coffee at Broadsheet Coffee Roasters, just a five-minute walk from Harvard Yard in Cambridge, Massachusetts.",
-		"extraInfo": {
-			"est": "2017",
-			"notable": null,
-			"ownership": null,
-			"memberships": null
-		},
+		"extraInfo": { "est": "2017", "notable": null, "ownership": null, "memberships": null },
 		"johnsSeal": false
 	},
 	{
-    "name": "Prodigal",
-    "website": "https://getprodigal.com/collections/roasted-coffee",
-    "logo": "img/roaster-logo_prodigal.png",
-    "city": "Boulder",
-    "state": "CO",
-    "description": "A specialty coffee roaster based in Boulder Colorado, founded by Scott Rao and Mark Benedetto. The company focuses on light roasts with high consistency, achieved through a rigorous quality control process that includes blind cupping, strict roasting targets, and optical sorting of green beans.",
-    "extraInfo": {
-		"est": "2021",
-		"awards": true,
-		"notable": [],
-		"ownership": null,
-		"memberships": null
-        },
-    "johnsSeal": false
+		"name": "Prodigal",
+		"website": "https://getprodigal.com/collections/roasted-coffee",
+		"logo": "img/roaster-logo_prodigal.png",
+		"city": "Boulder",
+		"state": "CO",
+		"description": "A specialty coffee roaster based in Boulder Colorado, founded by Scott Rao and Mark Benedetto. The company focuses on light roasts with high consistency, achieved through a rigorous quality control process that includes blind cupping, strict roasting targets, and optical sorting of green beans.",
+		"extraInfo": { "est": "2021", "awards": true, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
     },
 	{
-  	"name": "Modcup",
-	"website": "https://www.modcup.com/collections/all-coffee",
-	"logo": "img/roaster-logo_modcup.png",
-  	"city": "Jersey City",
-  	"state": "NJ",
-  	"description": "With high quality coffee, lighter roasting is better. We roast delicately to preserve the coffee’s natural aromas and brightness.",
-  	"extraInfo": {
-    	"est": "2013",
-		"awards": true,
-		"notable": ["4th place in CoffeeReview Top 30"],
-		"ownership": null,
-		"memberships": ["World Coffee Research", "SCA"]
-  	},
-	"johnsSeal": true
+		"name": "Modcup",
+		"website": "https://www.modcup.com/collections/all-coffee",
+		"logo": "img/roaster-logo_modcup.png",
+		"city": "Jersey City",
+		"state": "NJ",
+		"description": "With high quality coffee, lighter roasting is better. We roast delicately to preserve the coffee’s natural aromas and brightness.",
+		"extraInfo": { "est": "2013", "awards": true, "notable": ["4th place in CoffeeReview Top 30"], "ownership": null, "memberships": ["World Coffee Research", "SCA"] },
+		"johnsSeal": true
 	},
 	{
-  	"name": "Driftaway",
-	"website": "https://store.driftaway.coffee/collections/coffees",
-	"logo": "img/roaster-logo_driftaway.png",
-  	"city": "Brooklyn",
-  	"state": "NY",
-  	"description": "Our mission is to build an equitable value chain by prioritizing women & minority producers, and we want to make coffee accessible and fun for all consumers.",
-  	"extraInfo": {
-    	"est": "2014",
-		"awards": true,
-		"notable": ["2026 Roaster of the year - Roast magazine"],
-		"ownership": "Immigrant-owned, Woman-led",
-		"memberships": null
-  	},
-	"johnsSeal": true
+		"name": "Driftaway Coffee",
+		"website": "https://store.driftaway.coffee/collections/coffees",
+		"logo": "img/roaster-logo_driftaway.png",
+		"city": "Brooklyn",
+		"state": "NY",
+		"description": "Our mission is to build an equitable value chain by prioritizing women & minority producers, and we want to make coffee accessible and fun for all consumers.",
+		"extraInfo": { "est": "2014", "awards": true, "notable": ["2026 Roaster of the year - Roast magazine"], "ownership": "Immigrant-owned, Woman-led", "memberships": null },
+		"johnsSeal": true
 	},
 	{
-  	"name": "Wonderstate",
-	"website": "https://wonderstate.com/collections/all",
-	"logo": "img/roaster-logo_wonderstate.png",
-  	"city": "Viroqua",
-  	"state": "WI",
-  	"description": "Wonderstate Coffee has been dedicated to roasting exceptional, ethically sourced coffee that sparks connection, inspires curiosity, and nurtures communities.",
-  	"extraInfo": {
-    	"est": "2005",
-		"awards": true,
-		"notable": ["2025 Roaster of the year - Roast magazine"],
-		"ownership": null,
-		"memberships": ["Certified B corp"]
-  	},
-	"johnsSeal": false
+		"name": "Wonderstate Coffee",
+		"website": "https://wonderstate.com/collections/all",
+		"logo": "img/roaster-logo_wonderstate.png",
+		"city": "Viroqua",
+		"state": "WI",
+		"description": "Wonderstate Coffee has been dedicated to roasting exceptional, ethically sourced coffee that sparks connection, inspires curiosity, and nurtures communities.",
+		"extraInfo": { "est": "2005", "awards": true, "notable": ["2025 Roaster of the year - Roast magazine"], "ownership": null, "memberships": ["Certified B corp"] },
+		"johnsSeal": false
 	},
 	{
-  	"name": "Ceremony",
-	"website": "https://ceremonycoffee.com/collections/coffee",
-	"logo": "img/roaster-logo_ceremony.png",
-  	"city": "Annapolis",
-  	"state": "MD",
-  	"description": "We’ve always believed coffee should be something special, and this simple thought moves us every day to source smarter, roast better, and delight more people again and again.",
-  	"extraInfo": {
-    	"est": "2002",
-		"awards": false,
-		"notable": null,
-		"ownership": null,
-		"memberships": null
-  	},
-	"johnsSeal": false
+		"name": "Ceremony Coffee",
+		"website": "https://ceremonycoffee.com/collections/coffee",
+		"logo": "img/roaster-logo_ceremony.png",
+		"city": "Annapolis",
+		"state": "MD",
+		"description": "We’ve always believed coffee should be something special, and this simple thought moves us every day to source smarter, roast better, and delight more people again and again.",
+		"extraInfo": { "est": "2002", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
 	},
 	{
-  	"name": "Little Wolf",
-	"website": "https://littlewolf.coffee/collections/coffee",
-	"logo": "img/roaster-logo_littlewolf.png",
-  	"city": "Ipswich",
-  	"state": "MA",
-  	"description": "Passionate about making good coffee, we source only the highest quality green coffee and work with those who seek to do the same. We roast a small, intentional selection with care to bring forth the unique qualities of each one, highlighting what makes them special.",
-  	"extraInfo": {
-    	"est": "2016",
-		"awards": false,
-		"notable": null,
-		"ownership": null,
-		"memberships": null
-  	},
-	"johnsSeal": false
+		"name": "Little Wolf Coffee",
+		"website": "https://littlewolf.coffee/collections/coffee",
+		"logo": "img/roaster-logo_littlewolf.png",
+		"city": "Ipswich",
+		"state": "MA",
+		"description": "Passionate about making good coffee, we source only the highest quality green coffee and work with those who seek to do the same. We roast a small, intentional selection with care to bring forth the unique qualities of each one, highlighting what makes them special.",
+		"extraInfo": { "est": "2016", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
 	},
 	{
-  	"name": "Red Drum",
-	"website": "https://www.reddrumroasters.com/shop",
-	"logo": "img/roaster-logo_reddrum.png",
-  	"city": "Durham",
-  	"state": "NC",
-  	"description": "Red Drum Roasters emerged in 2022 from a happy intersection between Thomas’s years of home roasting and the opportunity to found a Durham roastery focused specifically on serving the Durham Farmers Market.",
-  	"extraInfo": {
-    	"est": "2022",
-		"awards": false,
-		"notable": null,
-		"ownership": null,
-		"memberships": null
-  	},
-	"johnsSeal": false
+		"name": "Red Drum Roasters",
+		"website": "https://www.reddrumroasters.com/shop",
+		"logo": "img/roaster-logo_reddrum.png",
+		"city": "Durham",
+		"state": "NC",
+		"description": "Red Drum Roasters emerged in 2022 from a happy intersection between Thomas’s years of home roasting and the opportunity to found a Durham roastery focused specifically on serving the Durham Farmers Market.",
+		"extraInfo": { "est": "2022", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
 	},
 	{
-  	"name": "Flower Child",
-	"website": "https://flowerchildcoffee.com/collections/active-coffee",
-	"logo": "img/roaster-logo_flowerchild.png",
-  	"city": "Oakland",
-  	"state": "CA",
-  	"description": "Flower Child is a small roasting and green buying project that is a product of years in the industry. We are procuring the finest green coffees we can find and roasting for clarity. Our approach to roasting aims to transparently showcase each coffee without adding too much or too little development.",
-  	"extraInfo": {
-    	"est": "2021",
-		"awards": false,
-		"notable": null,
-		"ownership": null,
-		"memberships": null
-  	},
-	"johnsSeal": false
+		"name": "Flower Child Coffee",
+		"website": "https://flowerchildcoffee.com/collections/active-coffee",
+		"logo": "img/roaster-logo_flowerchild.png",
+		"city": "Oakland",
+		"state": "CA",
+		"description": "Flower Child is a small roasting and green buying project that is a product of years in the industry. We are procuring the finest green coffees we can find and roasting for clarity. Our approach to roasting aims to transparently showcase each coffee without adding too much or too little development.",
+		"extraInfo": { "est": "2021", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
 	},
 	{
-  	"name": "Parlor",
-	"website": "https://parlorcoffee.com/pages/shop/#coffee",
-	"logo": "img/roaster-logo_parlor.png",
-  	"city": "Brooklyn",
-  	"state": "NY",
-  	"description": "Founded in 2012 as an underground roastery and pocket square-sized espresso bar, Parlor’s roastery and headquarters now sit on the border of Brooklyn’s historic Navy Yard. Roasting to order every Sunday through Thursday, the team behind Parlor Coffee is dedicated to raising the bar of coffee culture in NYC and beyond.",
-  	"extraInfo": {
-    	"est": "2012",
-		"awards": false,
-		"notable": null,
-		"ownership": null,
-		"memberships": null
-  	},
-	"johnsSeal": false
+		"name": "Parlor Coffee",
+		"website": "https://parlorcoffee.com/pages/shop/#coffee",
+		"logo": "img/roaster-logo_parlor.png",
+		"city": "Brooklyn",
+		"state": "NY",
+		"description": "Founded in 2012 as an underground roastery and pocket square-sized espresso bar, Parlor’s roastery and headquarters now sit on the border of Brooklyn’s historic Navy Yard. Roasting to order every Sunday through Thursday, the team behind Parlor Coffee is dedicated to raising the bar of coffee culture in NYC and beyond.",
+		"extraInfo": { "est": "2012", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": false
 	},
 	{
-  	"name": "Hex",
-	"website": "https://hex.coffee",
-	"logo": "img/roaster-logo_hex.png",
-  	"city": "Charlotte",
-  	"state": "NC",
-  	"description": "HEX began as a simple pop-up in charlotte, n.carolina in 2015 with the goal of creating warm, inviting spaces in unfamiliar places and bringing bright, vibrant coffees to our community.",
-  	"extraInfo": {
-    	"est": "2015",
-		"awards": false,
-		"notable": null,
-		"ownership": null,
-		"memberships": null
-  	},
-	"johnsSeal": true
+		"name": "Hex Coffee",
+		"website": "https://hex.coffee",
+		"logo": "img/roaster-logo_hex.png",
+		"city": "Charlotte",
+		"state": "NC",
+		"description": "HEX began as a simple pop-up in charlotte, n.carolina in 2015 with the goal of creating warm, inviting spaces in unfamiliar places and bringing bright, vibrant coffees to our community.",
+		"extraInfo": { "est": "2015", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": true
 	},
 	{
-  	"name": "YES PLZ",
-	"website": "https://www.yesplz.coffee/product/single-origin",
-	"logo": "img/roaster-logo_yesplz.png",
-  	"city": "Los Angeles",
-  	"state": "CA",
-  	"description": "We believe great coffee should be for everyone. We started YES PLZ on the simple but bold premise that the best coffee you drink should be coffee you made in your own kitchen — and it’s easy when you begin with great beans.",
-  	"extraInfo": {
-    	"est": "2017",
-		"awards": false,
-		"notable": null,
-		"ownership": null,
-		"memberships": null
-  	},
-	"johnsSeal": true
+		"name": "YES PLZ",
+		"website": "https://www.yesplz.coffee/product/single-origin",
+		"logo": "img/roaster-logo_yesplz.png",
+		"city": "Los Angeles",
+		"state": "CA",
+		"description": "We believe great coffee should be for everyone. We started YES PLZ on the simple but bold premise that the best coffee you drink should be coffee you made in your own kitchen — and it’s easy when you begin with great beans.",
+		"extraInfo": { "est": "2017", "awards": false, "notable": null, "ownership": null, "memberships": null },
+		"johnsSeal": true
 	},
 	{
-  	"name": "Klatch",
-	"website": "https://www.klatchcoffee.com/collections/single-origin",
-	"logo": "img/roaster-logo_klatch.png",
-  	"city": "Rancho Cucamonga",
-  	"state": "CA",
-  	"description": "Klatch is a family-owned and run coffee company based in Southern California and distributed worldwide. We source, roast, and brew our own coffee and apply our scientific method to accomplish a taste best described with expletives and exclamations. Some say it’s obsessive, we say it’s fun.",
-  	"extraInfo": {
-    	"est": "1993",
-		"awards": true,
-		"notable": ["Micro Roaster of the Year: 2009 - Roast Magazine", "Overall Champion: 2015, 2016, 2017, 2018 - Golden Bean"],
-		"ownership": null,
-		"memberships": null
-  	},
-	"johnsSeal": true
+		"name": "Klatch Coffee",
+		"website": "https://www.klatchcoffee.com/collections/single-origin",
+		"logo": "img/roaster-logo_klatch.png",
+		"city": "Rancho Cucamonga",
+		"state": "CA",
+		"description": "Klatch is a family-owned and run coffee company based in Southern California and distributed worldwide. We source, roast, and brew our own coffee and apply our scientific method to accomplish a taste best described with expletives and exclamations. Some say it’s obsessive, we say it’s fun.",
+		"extraInfo": { "est": "1993", "awards": true, "notable": ["Micro Roaster of the Year: 2009 - Roast Magazine", "Overall Champion: 2015, 2016, 2017, 2018 - Golden Bean"], "ownership": null, "memberships": null },
+		"johnsSeal": true
  	},
 	{
 		"name": "Amavida",
@@ -448,7 +337,7 @@
 		"state": "NY",
 		"description": "Regalia stands ahead of the curve through its unparalleled roast consistency and quality control metrics. Lead by international roasting instructor Paolo Maliksi, the team at Regalia curates a menu that juxtaposes exemplary lots of traditionally processed coffees alongside innovative, designed-fermented coffees from leading world-class producers.",
 		"extraInfo": { "est": "2017", "awards": true, "notable": ["1st place, Filter - Experimental Processing - GLOBAL COFFEE AWARDS 2025", "Best Coffee Subscription - GQ Magazine"], "ownership": "AAPI", "memberships": null },
-		"johnsSeal": false
+		"johnsSeal": true
 	},
 	{
 		"name": "Sunday Coffee Project",
@@ -600,5 +489,125 @@
 		"description": "We believe that the journey from bean to cup is a meticulous process that deserves the utmost attention. By sourcing only the highest quality beans through direct relationships with producers, we ensure that every sip of our coffee reflects the dedication to delivering an extraordinary coffee experience.",
 		"extraInfo": { "est": "2022", "awards": false, "notable": null, "ownership": "Woman-owned", "memberships": null},
 		"johnsSeal": true
+	},
+	{
+		"name": "Ritual Coffee",
+		"website": "https://ritualcoffee.com/collection/coffee/",
+		"logo": "img/roaster-logo_ritual.png",
+		"city": "San Francisco",
+		"state": "CA",
+		"description": "A San Francisco original since 2005. Ritual is a fully independent and woman-owned coffee roasting company.",
+		"extraInfo": { "est": "2005", "awards": true, "notable": null, "ownership": "Woman-owned", "memberships": null},
+		"johnsSeal": true
+	},
+	{
+		"name": "Olympia Coffee",
+		"website": "https://www.olympiacoffee.com/collections/coffee",
+		"logo": "img/roaster-logo_olympia.png",
+		"city": "Olympia",
+		"state": "WA",
+		"description": "Olympia Coffee is an independent, small-batch roaster dedicated to sourcing and roasting some of the world’s finest coffees. From our home in the Pacific Northwest, we partner directly with coffee farmers across nine countries in East Africa, South America, and Central America—building lasting relationships rooted in fairness, transparency, and respect.",
+		"extraInfo": { "est": "2005", "awards": true, "notable": ["2013 Micro Roaster of the Year - Roast Magazine","2013 Roaster of the year", "Awarded 2nd, 3rd, 4th, and 5th Place in the Northwest Brewer’s Cup"], "ownership": null, "memberships": null},
+		"johnsSeal": true
+	},
+	{
+		"name": "Sey Coffee",
+		"website": "https://www.seycoffee.com/collections/coffee",
+		"logo": "img/roaster-logo_sey.png",
+		"city": "Brooklyn",
+		"state": "NY",
+		"description": "We are intensely interested in reimagining—both technologically and logistically—everything we have come to know about coffee. We are inspired by the boundlessness of possibility, and allow ourselves the freedom to work with whatever coffees we find inspiring, no matter how high the cost or how small the lot.",
+		"extraInfo": { "est": "2013", "awards": true, "notable": ["2019 Best coffee shops in America - Food & Wine"], "ownership": null, "memberships": null},
+		"johnsSeal": true
+	},
+	{
+		"name": "Methodical Coffee",
+		"website": "https://methodicalcoffee.com/collections/coffee-beans",
+		"logo": "img/roaster-logo_methodical.png",
+		"city": "Greenville",
+		"state": "SC",
+		"description": "We’re nerds, not snobs. We set out in 2014 to open a coffee shop in Greenville, SC that approached its craft, hospitality, and atmosphere with care and intention. What began as a simple mission has grown into a way of life—shaping how we see our business, and the role coffee plays in it.",
+		"extraInfo": { "est": "2014", "awards": true, "notable": ["2022 Best coffee shops South Carolina - Food & Wine"], "ownership": null, "memberships": null},
+		"johnsSeal": true
+	},
+	{
+		"name": "Coava Coffee",
+		"website": "https://shop.coavacoffee.com/collections/coffee",
+		"logo": "img/roaster-logo_coava.png",
+		"city": "Portland",
+		"state": "OR",
+		"description": "As one of the premier coffee roasters in the United States, we embody a relentless focus on quality, and quality doesn’t come easy. It’s the result of hard work, experience, and persistence. It’s found in the details. Whether it’s traveling to farms around the world, developing roast profiles, or logging hours behind the espresso machine, we’re dedicated to refining every area of our craft, so that quality comes through in every bag of beans, every handcrafted drink, and in every interaction with our team.",
+		"extraInfo": { "est": "2008", "awards": true, "notable": ["The Absolute Best Coffee Roasters in Every State - Tasting Table", "The Best Coffee Roasters in America - Thrillist"], "ownership": null, "memberships": null},
+		"johnsSeal": true
+	},
+	{
+		"name": "Linea Caffe",
+		"website": "https://lineacaffe.com/shop/coffee/",
+		"logo": "img/roaster-logo_linea.png",
+		"city": "San Francisco",
+		"state": "CA",
+		"description": "Founded in 2013, Linea Caffe is the latest project of veteran artisan coffee roaster Andrew Barnett, whose expertise is centered in sweetness-forward coffee and espresso, compassionate customer service, and, above all, coffee’s role in bringing people together. Through Andrew’s deep relationships with the world’s most quality-focused coffee producers, we’ve been proud to earn both community adoration in San Francisco and global recognition for our environmentally friendly, award-winning, simply delicious coffees.",
+		"extraInfo": { "est": "2013", "awards": true, "notable": ["2024 Good Food Award"], "ownership": null, "memberships": ["Certified B corp","Green Certified - California Green Business Network"]},
+		"johnsSeal": true
+	},
+	{
+		"name": "Proud Mary Coffee",
+		"website": "https://proudmarycoffee.com/collections/all-coffee",
+		"logo": "img/roaster-logo_proudmary.png",
+		"city": "Portland",
+		"state": "OR",
+		"description": "Proud Mary Coffee USA. Buy Specialty Coffee and Geisha including coffee subscription. Roasted in Portland, Oregon.",
+		"extraInfo": { "est": "2009", "awards": true, "notable": ["Ranked the 4th Best Coffee Shop in the world"], "ownership": null, "memberships": null},
+		"johnsSeal": true
+	},
+	{
+		"name": "Brandywine Coffee Roasters",
+		"website": "https://www.brandywinecoffeeroasters.com/collections/all-coffee-1",
+		"logo": "img/roaster-logo_brandywine.png",
+		"city": "Wilmington",
+		"state": "DE",
+		"description": "Creativity, Kindness, and Coffee is a little spell we like to start the day with around our roasting and printing operation hidden away in Wilmington, Delaware, right outside of the Brandywine Valley. We aim to deliver a small bit of all of the above, plus a little wonder and joy with each screen printed bag of coffee that is sent out to the multiverse.",
+		"extraInfo": { "est": "2015", "awards": true, "notable": ["Mistobox Roaster of the Year"], "ownership": "Woman-owned", "memberships": null},
+		"johnsSeal": true
+	},
+	{
+		"name": "Bird Rock Coffee",
+		"website": "https://birdrockcoffee.com/roasted-coffee/single-origin/",
+		"logo": "img/roaster-logo_birdrock.png",
+		"city": "San Diego",
+		"state": "CA",
+		"description": "Bird Rock Coffee Roasters is proud to have put premiere coffee on the map in San Diego. A regular contributor to the international coffee industry, a consistent winner of scores above 90 from Coffee Review, the recipient of a 2017 Good Food Award, and with a Q-Grader certified roaster on site, Bird Rock’s staff is sought after throughout the world for their coffee expertise.",
+		"extraInfo": { "est": "2002", "awards": true, "notable": ["Roaster of the Year in 2012 - Roast Magazine"], "ownership": null, "memberships": null},
+		"johnsSeal": false
+	},
+	{
+		"name": "Huckleberry Roasters",
+		"website": "https://www.huckleberryroasters.com/shop",
+		"logo": "img/roaster-logo_huckleberry.png",
+		"city": "Denver",
+		"state": "CO",
+		"description": "Founded in Denver, CO in 2011, Huckleberry Roasters has always been driven by the foundational belief that connecting good coffee and good people makes today great, and tomorrow better by building a collective sense of culture and community.",
+		"extraInfo": { "est": "2011", "awards": true, "notable": ["Roast Magazine’s Macro Roaster of the Year for 2022", "2019 US Coffee Roasting Championship","2021 Finalist Good Food Award"], "ownership": null, "memberships": null},
+		"johnsSeal": false
+	},
+	{
+		"name": "Cat & Cloud Coffee",
+		"website": "https://catandcloud.com/collections/coffee",
+		"logo": "img/roaster-logo_catandcloud.png",
+		"city": "Santa Cruz",
+		"state": "CA",
+		"description": "Cat & Cloud was created by three friends who believe experiences and connection shape our lives. Every interaction you have with another person, no matter how small, is an opportunity to leave them in a better place than we found them. That’s why we made it our mission to... Inspire connection, by creating memorable experiences.",
+		"extraInfo": { "est": "2016", "awards": true, "notable": null, "ownership": null, "memberships": null},
+		"johnsSeal": false
+	},
+	{
+		"name": "Mostra Coffee",
+		"website": "https://mostracoffee.com/collections/coffee",
+		"logo": "img/roaster-logo_mostra.png",
+		"city": "San Diego",
+		"state": "CA",
+		"description": "In 2009, two best friends, Beverly Magtanong and Jelynn Malone, were volunteering to build homes for the poor in the Philippines. They realized that the best way to create lasting change wasn’t just through charity, but by helping farmers earn a fair wage for their crops—which happened to be coffee. They sought the help of Chef Mike Arquines, who at the time was working in renowned Michelin-star restaurants. He and his team would later help create the masterpiece drinks their cafes are now known for.",
+		"extraInfo": { "est": "2013", "awards": true, "notable": ["Roast Magazine’s 2020 Micro Roaster of the Year"], "ownership": "Woman-owned", "memberships": null},
+		"johnsSeal": false
 	}
 ]
