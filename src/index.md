@@ -19,7 +19,7 @@ roasterscss: roasters.css
             I know there are tons of them out there. So, I decided to make my own list and put it here so everyone else can find them too. They all source and roast high quality, <a href="/know/">single origin</a> beans, but each roaster does it a little different and a little special.
             </p>
             <p>
-            I hope this helps you find your new favorite place to get good coffee.
+            I hope this helps you find your new favorite place to get good coffee. And if you're curious, <a href="/coffeeposts/">check out what I'm drinking</a>
             </p>
         </div>
         <img src="/img/get-hero.svg" alt="Illustrated hero showing coffee and brewing gear" width="400" />
@@ -46,4 +46,23 @@ roasterscss: roasters.css
             {%- endfor -%}
         </ul>
     </div>
-<section>
+</section>
+<!-- Roaster modal -->
+<div id="roasterModal" class="modal hidden" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="roasterModalTitle" aria-describedby="roasterModalDesc">
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-content" role="document">
+        <button class="modal-close" aria-label="Close" data-modal-close><img src="/img/nav-x.svg" alt="Close Menu"></button>
+        <div class="modal-body">
+            <div class="modal-left-side">
+                <div class="modal-logo"><img src="" alt="" /></div>
+            </div>
+            <div class="modal-right-side">
+                <h2 id="roasterModalTitle" class="modal-name"></h2>
+                <p class="modal-location"></p>
+                <div class="modal-extra"></div>
+                <p id="roasterModalDesc" class="modal-description"></p>
+                <div class="modal-links"></div>
+            </div>
+        </div>
+    </div>
+</div>

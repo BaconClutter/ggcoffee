@@ -10,6 +10,12 @@ export default function (eleventyConfig) {
     }
   );
 
+  eleventyConfig.addFilter("stripImages", function(content) {
+    // This regex looks for <img> tags and removes them
+    const regex = /<img\b[^>]*>/gi;
+    return content.replace(regex, '');
+  });
+
   eleventyConfig.addPassthroughCopy("**/*.css");
   eleventyConfig.addPassthroughCopy("./src/script.js");
   // Special cases for images not handled by eleventy-image

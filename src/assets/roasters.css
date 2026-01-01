@@ -93,7 +93,10 @@ ul.roaster-list {
 /* Improve hero link contrast (was flagged by accessibility scan) */
 #getHero .hero-text a,
 .hero-text a {
-    color: var(--UI-PRIMARY-300);
+    color: var(--UI-PRIMARY-500);
+    &:hover {
+        color: var(--UI-PRIMARY-300);
+    }
 }
 
 /* Ensure roaster directory subheading meets contrast requirements */

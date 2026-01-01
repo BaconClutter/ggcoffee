@@ -1,0 +1,60 @@
+---
+title: Coffee Posts
+layout: "base.liquid"
+logoImage: /img/get-logo.svg
+stripImage: /img/get-header_icons.png
+coffeepostcss: coffeepost.css
+---
+<link rel="stylesheet" href="../assets/{{coffeepostcss}}">
+
+<section class="standard-section">
+    
+    <div>
+        <div class="section-intro">
+            <h2>{{ title }}</h2>
+            <p>Here's a running list of the coffee I'm drinking lately. If you're interested in a specific coffee, click on the roaster's name to visit their website.</p>
+        </div>
+        <ul class="coffee-posts-list">
+            {% assign postList = collections.post | reverse %}
+            {%- for post in postList -%}
+            <li class="coffee-post-item">
+                <div class="main-content">
+                    <span class="post-date">{{ post.data.date | date: "%B %d, %Y" }}</span>
+                    <h2>{{ post.data.title }}</h2>
+                    <!-- Display the post title and link to the roaster's website -->
+                    <!-- Might change this to show roaster modal on click instead of linking out -->
+                    <h3>
+                        by &nbsp;
+                        {%- for roaster in roasters -%}
+                            {%- if roaster.name == post.data.roaster -%}
+                                <a href="{{ roaster.website }}" target="_blank" rel="noopener noreferrer">{{ roaster.name }}</a>
+                            {%- endif -%}
+                        {%- endfor -%}
+                    </h3>
+                    <div class="coffee-post-content">
+                        {% assign alt = post.data.coffeeImageAlt | default: "Coffee Image" %}
+                        <div class="coffee-bag-content">
+                            <ul>
+                                <li><strong>Origin</strong> {{ post.data.origin }}</li>
+                                <li><strong>Varietal</strong> {{ post.data.varietal }}</li>
+                                <li><strong>Process</strong> {{ post.data.process}}</li>
+                                <li><strong>Elevation</strong> {{ post.data.elevation }}</li>
+                                <li><strong>Notes</strong> {{ post.data.notes }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-content">
+                    <div class="tasting-table">
+                        <h3>My tasting notes</h3>
+                        {{ post.content | stripImages }}
+                    </div>
+                    <div class="coffee-thumb">
+                        <img src="{{ post.data.coffeeImage | url }}" alt="{{ alt }}" class="post-image" width="300">
+                    </div>
+                </div>
+            </li>
+            {%- endfor -%}        
+        </ul>
+    </div>
+</section>

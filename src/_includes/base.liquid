@@ -76,40 +76,22 @@
             </div>
         </footer>
     </div>
-        <!-- Roaster modal (shared) -->
-        <div id="roasterModal" class="modal hidden" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="roasterModalTitle" aria-describedby="roasterModalDesc">
-            <div class="modal-backdrop" data-modal-close></div>
-            <div class="modal-content" role="document">
-                <button class="modal-close" aria-label="Close" data-modal-close><img src="/img/nav-x.svg" alt="Close Menu"></button>
-                <div class="modal-body">
-                    <div class="modal-left-side">
-                        <div class="modal-logo"><img src="" alt="" /></div>
-                    </div>
-                    <div class="modal-right-side">
-                        <h2 id="roasterModalTitle" class="modal-name"></h2>
-                        <p class="modal-location"></p>
-                        <div class="modal-extra"></div>
-                        <p id="roasterModalDesc" class="modal-description"></p>
-                        <div class="modal-links"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     <script src="/script.js"></script>
-        <!-- Minimal JSON-LD for site (Organization + WebSite) -->
-        <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "{{ meta.url | default: '' }}",
+    <!-- Minimal JSON-LD for site (Organization + WebSite) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "{{ meta.url | default: '' }}",
+        "name": "{{ meta.siteName | default: site.title }}",
+        "description": "{{ meta.siteDescription | default: site.description }}",
+        "publisher": {
+            "@type": "Organization",
             "name": "{{ meta.siteName | default: site.title }}",
-            "description": "{{ meta.siteDescription | default: site.description }}",
-            "publisher": {
-                "@type": "Organization",
-                "name": "{{ meta.siteName | default: site.title }}",
-                "logo": "{{ logoImage | default: '/favicon-96x96.png' }}"
-            }
+            "logo": "{{ logoImage | default: '/favicon-96x96.png' }}"
         }
-        </script>
+    }
+    </script>
 </body>
 </html>
