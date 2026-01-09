@@ -5,7 +5,7 @@ content:
     filename: '{fields.title}.md'
     type: collection
     view:
-      fields: [coffeeImage, title, pubDate]
+      fields: [coffeeImage, title, date]
     fields:
       - name: tags
         label: Tags
@@ -19,7 +19,7 @@ content:
         label: Title
         type: string
 
-      - name: pubDate
+      - name: date
         label: Publication Date
         type: date
         options:
