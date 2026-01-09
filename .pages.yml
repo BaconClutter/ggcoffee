@@ -1,7 +1,7 @@
 content:
   - name: ggPosts
     label: Coffee Posts
-    path: src/content/posts
+    path: src/posts
     filename: '{fields.title}.md'
     type: collection
     view:
