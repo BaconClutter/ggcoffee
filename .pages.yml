@@ -23,7 +23,7 @@ content:
         label: Publication Date
         type: date
         options:
-          format: yyyy-mm-dd
+          format: yyyy-MM-dd
 
       - name: coffeeImage
         label: Coffee Image
