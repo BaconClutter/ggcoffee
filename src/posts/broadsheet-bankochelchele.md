@@ -9,6 +9,18 @@ varietal: 74110 & 74112
 process: Anaerobic fermentation, Natural
 elevation: 1900 - 2300 MASL
 notes: Golden kiwi, Lemongrass, Orange blossom
+aromaGeneral: Balanced
+aromaSpecific: Orange
+acidityGeneral: Bright
+aciditySpecific: Sweetly tart
+mouthfeelGeneral: Medium
+mouthfeelSpecific: Syrupy
+flavorGeneral: Complex
+flavorSpecific: Citrus, orange, subtle blueberry
+finishGeneral: Simple
+finishSpecific: Bittersweet
+overallGeneral: 8.4/10 - Great
+overallSpecific: This Banko Chelchele, while not as enjoyable as I've had from other roasters, was still high quality and delightful with a little more citrus and sour than the blueberry and vanilla falvors I'd had previously.
 ---
 {% if coffeeImage %}
   <img src="{{ coffeeImage | url }}" alt="{{ alt }}" class="post-image">

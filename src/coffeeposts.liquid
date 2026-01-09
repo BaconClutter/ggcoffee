@@ -47,7 +47,57 @@ coffeepostcss: coffeepost.css
                 <div class="my-content">
                     <div class="tasting-table">
                         <h3>My tasting notes</h3>
-                        {{ post.content | stripImages }}
+                       <!-- {{ post.content | stripImages }} -->
+                         <ul class="assessment">
+                            <li>
+                                <div class="primary">
+                                <strong>Fragrance / Aroma</strong>
+                                </div>
+                                <div class="note">
+                                {{ post.data.aromaGeneral }} &mdash; <i>{{ post.data.aromaSpecific }}</i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="primary">
+                                <strong>Acidity / Structure</strong>
+                                </div>
+                                <div class="note">
+                                {{ post.data.acidityGeneral }} &mdash; <i>{{ post.data.aciditySpecific }}</i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="primary">
+                                <strong>Mouthfeel / Body</strong>
+                                </div>
+                                <div class="note">
+                                {{ post.data.mouthfeelGeneral }} &mdash; <i>{{ post.data.mouthfeelSpecific }}</i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="primary">
+                                <strong>Flavor / Taste</strong>
+                                </div>
+                                <div class="note">
+                                {{ post.data.flavorGeneral }} &mdash; <i>{{ post.data.flavorSpecific }}</i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="primary">
+                                <strong>Aftertaste / Finish</strong> 
+                                </div>
+                                <div class="note">
+                                {{ post.data.finishGeneral }} &mdash; <i>{{ post.data.finishSpecific }}</i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="primary">
+                                <strong>Overall impression</strong>
+                                </div>
+                                <div class="note">
+                                {{ post.data.overallGeneral }} &mdash; <i>{{ post.data.overallSpecific }}</i>
+                                </div>
+                            </li>
+                         </ul>
                     </div>
                     <div class="coffee-thumb">
                         <img src="{{ post.data.coffeeImage | url }}" alt="{{ alt }}" class="post-image" width="300">
