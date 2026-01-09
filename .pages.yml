@@ -1,0 +1,98 @@
+content:
+  - name: ggPosts
+    label: Coffee Posts
+    path: src/content/posts
+    filename: '{fields.title}.md'
+    type: collection
+    view:
+      fields: [coffeeImage, title, pubDate]
+    fields:
+      - name: roaster
+        label: Roaster
+        type: string
+
+      - name: title
+        label: Title
+        type: string
+
+      - name: pubDate
+        label: Publication Date
+        type: date
+        options:
+          format: yyyy-mm-dd
+
+      - name: coffeeImage
+        label: Coffee Image
+        type: image
+
+      - name: origin
+        label: Origin
+        type: string
+
+      - name: varietal
+        label: Varietal
+        type: string
+
+      - name: process
+        label: Process
+        type: string
+
+      - name: elevation
+        label: Elevation
+        type: string
+
+      - name: notes
+        label: Notes
+        type: string
+
+      - name: aromaGeneral
+        label: Aroma General
+        type: string
+
+      - name: aromaSpecific
+        label: Aroma Specific
+        type: string
+
+      - name: acidityGeneral
+        label: Acidity General
+        type: string
+
+      - name: aciditySpecific
+        label: Acidity Specific
+        type: string
+
+      - name: mouthfeelGeneral
+        label: Mouthfeel General
+        type: string
+
+      - name: mouthfeelSpecific
+        label: Mouthfeel Specific
+        type: string
+
+      - name: flavorGeneral
+        label: Flavor General
+        type: string
+
+      - name: flavorSpecific
+        label: Flavor Specific
+        type: string
+
+      - name: finishGeneral
+        label: Finish General
+        type: string
+
+      - name: finishSpecific
+        label: Finish Specific
+        type: string
+
+      - name: overallGeneral
+        label: Overall General
+        type: string
+
+      - name: overallSpecific
+        label: Overall Specific
+        type: string
+
+media:
+  input: src/img
+  output: /img
