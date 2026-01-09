@@ -2,7 +2,7 @@
 tags: post
 roaster: Reanimator Coffee
 title: Goro Muda Ethiopia
-pubDate: 2026-00-09
+date: 2026-00-09
 coffeeImage: /img/coffeeimage-reanimator-goromuda.png
 origin: Guji, Ethiopia
 varietal: Ethiopia Landraces
