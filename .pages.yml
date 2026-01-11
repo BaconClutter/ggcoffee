@@ -97,6 +97,22 @@ content:
         label: Overall Specific
         type: string
 
+  - name: glossaryEntries
+    label: Glossary Entries
+    path: src/_data
+    filename: glossaryentries.json
+    type: file
+    format: json
+    list: true
+    fields:
+    - name: term
+      label: Term
+      type: string
+
+    - name: definition
+      label: Definition
+      type: string
+  
 media:
   input: src/img
   output: /img
