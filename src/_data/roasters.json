@@ -1113,5 +1113,21 @@
       ]
     },
     "johnsSeal": false
+  },
+  {
+    "name": "Bear Lake Coffee Co",
+    "website": "https://bearlakecoffee.com/collections/coffee",
+    "logo": "/img/roaster-logo_bearlake.png",
+    "city": "Barronett",
+    "state": "WI",
+    "description": "Bear Lake Coffee Co., a Certified B Corp, is dedicated to exceptional coffee, farmers around the world, and the local community we call home. We craft every cup with a commitment to sustainability, innovation, and giving back—donating 2% of revenue to the communities we serve. Coffee that’s good for you, the planet, and the people who make it possible.",
+    "extraInfo": {
+      "est": "2022",
+      "awards": true,
+      "memberships": [
+        "Certified B Corp"
+      ]
+    },
+    "johnsSeal": false
   }
 ]
