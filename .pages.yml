@@ -111,7 +111,70 @@ content:
     - name: definition
       label: Definition
       type: string
-  
+
+  - name: roasters
+    label: Roasters
+    path: src/_data/roasters.json
+    type: file
+    format: json
+    list: true
+    fields:
+    - name: name
+      label: Name
+      type: string
+
+    - name: website
+      label: Website
+      type: string
+      pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+
+    - name: logo
+      label: Logo
+      type: image
+      description: maintain naming convention starting with 'roaster-logo_'
+
+    - name: city
+      label: City
+      type: string
+
+    - name: state
+      label: State
+      type: string
+
+    - name: description
+      label: Description
+      type: string
+
+    - name: extraInfo
+      label: Extra Info
+      type: object
+      fields:
+      - name: est
+        label: Established year
+        type: string
+
+      - name: awards
+        label: Awards
+        type: boolean
+
+      - name: notable
+        label: Notables
+        type: string
+        list: true
+
+      - name: ownership
+        label: Ownership
+        type: string
+
+      - name: memberships
+        label: Memberships
+        type: string
+        list: true
+
+    - name: johnsSeal
+      label: Johns seal
+      type: boolean
+      
 media:
   input: src/img
   output: /img
