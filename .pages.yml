@@ -99,8 +99,7 @@ content:
 
   - name: glossaryEntries
     label: Glossary Entries
-    path: src/_data
-    filename: glossaryentries.json
+    path: src/_data/glossaryentries.json
     type: file
     format: json
     list: true
