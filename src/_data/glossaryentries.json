@@ -1,34 +1,34 @@
 [
-    {
+  {
     "term": "Bloom",
-	"definition": "The process of pouring a small amount of water to the coffee grounds to prepare the process of extraction saturating and degassing the grounds."
-    },
-    {
+    "definition": "The process of pouring a small amount of water to the coffee grounds to prepare the process of extraction saturating and degassing the grounds."
+  },
+  {
     "term": "Third wave",
-	"definition": "Generally means a coffee shop or roaster that deals in coffee with a modern flavor profile. This typically means they roast beans with a lighter profile. Third wave roasters usually get their beans from smaller, better producers that care about quality over quantity."
-    },
-    {
+    "definition": "Generally means a coffee shop or roaster that deals in coffee with a modern flavor profile. This typically means they roast beans with a lighter profile. Third wave roasters usually get their beans from smaller, better producers that care about quality over quantity."
+  },
+  {
     "term": "Micro lot",
-	"definition": "Refers to a small batch of coffee beans harvested from a specific plot of land within a single farm. This plot is often chosen for its unique microclimate, soil composition, or varietal of coffee plant, resulting in exceptionally distinct and nuanced flavors."
-    },
-    {
+    "definition": "Refers to a small batch of coffee beans harvested from a specific plot of land within a single farm. This plot is often chosen for its unique microclimate, soil composition, or varietal of coffee plant, resulting in exceptionally distinct and nuanced flavors."
+  },
+  {
     "term": "Single origin",
-	"definition": "This means beans that came from a single farm, rather than a big mix of farms from an entire country like most grocery store coffee."
-    },
-    {
+    "definition": "This means beans that came from a single farm, rather than a big mix of farms from an entire country like most grocery store coffee."
+  },
+  {
     "term": "Producer",
-	"definition": "The cultivation, harvesting, post-harvest processing, storage, and grading of green coffee. When combined together, these activities require a deep understanding of coffee production, as well as a well-developed skill set."
-    },
-    {
+    "definition": "The cultivation, harvesting, post-harvest processing, storage, and grading of green coffee. When combined together, these activities require a deep understanding of coffee production, as well as a well-developed skill set."
+  },
+  {
     "term": "Origin",
-	"definition": "Used to refer to the specific place where the beans were farmed and processed"
-    },
-    {
+    "definition": "Used to refer to the specific place where the beans were farmed and processed. Usually more specific with better specialty coffee."
+  },
+  {
     "term": "Process",
-	"definition": "Describes what is done to the raw coffee cherries after they are picked and before they are shipped to the roaster. This usually involves some combination of de-pulping (removing the outer fruit), sometimes fermenting, washing, and drying, not necessarily in that order. This step, to me, really affects the final flavor. I generally prefer a natural process because it can impart some stronger, funkier (good funk mind you) flavors in the end."
-    },
-    {
+    "definition": "Describes what is done to the raw coffee cherries after they are picked and before they are shipped to the roaster. This usually involves some combination of de-pulping (removing the outer fruit), sometimes fermenting, washing, and drying, not necessarily in that order. This step, to me, really affects the final flavor. I generally prefer a natural process because it can impart some stronger, funkier (good funk mind you) flavors in the end."
+  },
+  {
     "term": "Varietal / Variety",
-	"definition": "So, dogs are all of the species, Canis familiaris, but we know there to be many different types of dogs. Same goes for coffee. We mostly know and drink the species, Arabica, but there are many types within that species that have unique properties that make for different flavors in your cup. Bourbon, Geisha, Typica, Caturra, SL28, just to name a few."
-    }
+    "definition": "So, dogs are all of the species, Canis familiaris, but we know there to be many different types of dogs. Same goes for coffee. We mostly know and drink the species, Arabica, but there are many types within that species that have unique properties that make for different flavors in your cup. Bourbon, Geisha, Typica, Caturra, SL28, just to name a few."
+  }
 ]
