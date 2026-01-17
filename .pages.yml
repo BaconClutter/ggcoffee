@@ -117,7 +117,10 @@ content:
     path: src/_data/roasters.json
     type: file
     format: json
-    list: true
+    list:
+      collapsible:
+        collapsed: true
+        summary: "{name} ({index})"
     fields:
     - name: name
       label: Name
