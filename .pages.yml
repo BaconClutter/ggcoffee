@@ -120,7 +120,7 @@ content:
     list:
       collapsible:
         collapsed: true
-        summary: "{name} ({index})"
+        summary: "({index})"
     fields:
     - name: name
       label: Name
