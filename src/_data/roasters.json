@@ -1129,5 +1129,22 @@
       ]
     },
     "johnsSeal": false
+  },
+  {
+    "name": "Camber Coffee Co",
+    "website": "https://cambercoffee.com/product-category/coffee/",
+    "logo": "/img/roaster-logo_camber.png",
+    "city": "Bellingham",
+    "state": "WA",
+    "description": "We roast coffees with sweetness, complexity, and balance. Our café is open daily from 8A-2P. We ship freshly roasted coffee nationally in 12oz, 2lb, and 5lb sizes. Free shipping on orders $39+.",
+    "extraInfo": {
+      "est": "2015",
+      "awards": true,
+      "notable": [
+        "2018 - Best Coffee in Washington State by Food & Wine Magazine",
+        "2022 - One of the best roasters in the country by Thrillist"
+      ]
+    },
+    "johnsSeal": false
   }
 ]
