@@ -1146,5 +1146,18 @@
       ]
     },
     "johnsSeal": false
+  },
+  {
+    "name": "Merit Coffee Co.",
+    "website": "https://meritcoffee.com/collections/coffee",
+    "logo": "/img/roaster-logo_merit.png",
+    "city": "San Antonio",
+    "state": "TX",
+    "description": "Since 2009, Merit has been committed to one simple idea: better coffee, shared in community. From the start, our cafés have been places to pause – whether to get work done, connect with friends, or simply find a moment of quiet in the middle of the day.",
+    "extraInfo": {
+      "est": "2009",
+      "awards": false
+    },
+    "johnsSeal": false
   }
 ]
