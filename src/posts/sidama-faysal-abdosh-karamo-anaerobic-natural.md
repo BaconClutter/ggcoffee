@@ -19,7 +19,7 @@ flavorGeneral: Complex
 flavorSpecific: Tart Cherry, Subtle Blueberry, Overripe fruit
 finishGeneral: Resonant
 finishSpecific: Bittersweet
-overallGeneral: "8.5"
+overallGeneral: 8.5/10
 overallSpecific: A really consistent natural light roast from Ethiopia. The
   Blueberry flavor started to show up a lot more after resting for a couple of
   weeks.
