@@ -1,7 +1,7 @@
 ---
 tags: post
 roaster: Bear Lake Coffee Co
-title: Sidama Faysal Abdosh Karamo Anaerobic Natural
+title: Sidama Faysal Abdosh Karamo
 date: 2026-01-31
 coffeeImage: /img/coffeeimage-bearklake-faysalabdosh.png
 origin: Karamo, Ethiopia
