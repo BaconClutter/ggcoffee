@@ -1,7 +1,7 @@
 ---
 tags: post
 roaster: Bear Lake Coffee Co
-title: Guji Hambela Bishan Wate
+title: Hambela Bishan Wate
 date: 2026-01-31
 coffeeImage: /img/coffeeimage-bearklake-gujihambela.png
 origin: Guji, Ethiopia
