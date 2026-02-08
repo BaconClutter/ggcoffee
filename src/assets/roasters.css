@@ -4,23 +4,39 @@
 
 /* Filter control styles */
 .roaster-filter {
+    display: flex;
+    flex-wrap: wrap;
     padding: 0 0 1rem 0;
-    text-align: right;
     align-items: center;
     gap: 0.5rem;
 }
 .roaster-filter label {
     display: none;
 }
+#roasterSearch {
+    background-color: white;
+    border: 1px solid var(--UI-PRIMARY-800);
+    font-size: var(--fs-2);
+    padding: 8px 8px 8px 32px;
+    border-radius: 4px;
+    width: 250px;
+    background-image: url('/img/search-icon.svg');
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    background-size: 16px 16px;
+}
 .roaster-filter select {
+    box-sizing: border-box;
+    margin-left: auto;
     cursor: pointer;
     background-color: var(--UI-PRIMARY-600);
-    appearance: none; 
+    appearance: none;
     color: white;
     font-size: var(--fs-2);
     font-weight: bold;
     padding: 0.5rem 1.75rem 0.5rem 1rem;
     border-radius: 4px;
+    max-width: 100%;
     background-image: url('/img/dropdown-arrow.svg');
     background-repeat: no-repeat;
     background-position: right 0.5rem center;
@@ -133,6 +149,19 @@ ul.roaster-list {
 
 /* Mobile phones (480px and below) */
 @media (max-width: 480px) {
+    .roaster-filter {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .roaster-filter select {
+        margin-left: 0;
+    }
+    #roasterSearch {
+        box-sizing: border-box;
+        height:48px;
+        width: 100%;
+        max-width: 100%;
+    }
     @supports (display: grid) {
         ul.roaster-list {
             grid-template-columns: repeat(1, 1fr);

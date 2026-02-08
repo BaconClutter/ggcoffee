@@ -25,6 +25,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/img/roaster-icon_*.svg");
   eleventyConfig.addPassthroughCopy("./src/img/external-link.svg");
   eleventyConfig.addPassthroughCopy("./src/img/dropdown-arrow.svg");
+  eleventyConfig.addPassthroughCopy("./src/img/search-icon.svg");
   eleventyConfig.addPassthroughCopy("./src/img/brew-prism.svg");
   eleventyConfig.addPassthroughCopy("./src/img/brew-prism-hover.svg");
   // Special cases for images not handled by eleventy-image

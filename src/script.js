@@ -129,9 +129,10 @@ if (navClose) {
     });
 })();
 
-/* State filter for roaster list */
+/* Search and state filter for roaster list */
 (function () {
     var select = document.getElementById('stateFilter');
+    var searchInput = document.getElementById('roasterSearch');
     if (!select) return;
 
     // Collect unique states from data-roaster attributes
@@ -160,16 +161,18 @@ if (navClose) {
     });
 
     function applyFilter() {
-        var val = select.value;
+        var stateVal = select.value;
+        var query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+
         items.forEach(function (el) {
-            if (!val) {
-                el.style.display = '';
-                return;
-            }
             try {
                 var r = JSON.parse(el.getAttribute('data-roaster') || '{}');
-                if ((r.state || '').trim() === val) el.style.display = '';
-                else el.style.display = 'none';
+                var matchesState = !stateVal || (r.state || '').trim() === stateVal;
+                var matchesSearch = !query ||
+                    (r.name || '').toLowerCase().indexOf(query) !== -1 ||
+                    (r.city || '').toLowerCase().indexOf(query) !== -1 ||
+                    (r.state || '').toLowerCase().indexOf(query) !== -1;
+                el.style.display = (matchesState && matchesSearch) ? '' : 'none';
             } catch (e) {
                 el.style.display = '';
             }
@@ -177,6 +180,7 @@ if (navClose) {
     }
 
     select.addEventListener('change', applyFilter);
+    if (searchInput) searchInput.addEventListener('input', applyFilter);
 })();
 
 /* TOOLTIP POSITIONING */

@@ -30,6 +30,8 @@ roasterscss: roasters.css
         <h2>Roaster directory</h2>
         <h3>A big list of good roasters that ship good coffee.</h3>
         <div class="roaster-filter">
+            <label for="roasterSearch">Search roasters:</label>
+            <input type="text" id="roasterSearch" placeholder="Search roasters..." />
             <label for="stateFilter">Filter by state:</label>
             <select id="stateFilter">
                 <option value="">All States</option>
